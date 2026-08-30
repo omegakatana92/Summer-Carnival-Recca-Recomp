@@ -1,1 +1,13 @@
-# ROM files echo *.nes echo *.rom echo.echo # Build output echo build/echo generated/echo.echo # Generated CSV files echo *_auto_entries.csv echo *_finder_audit.csv echo auto_entries.csv echo finder_audit.csv
+# ROM files
+*.nes
+*.rom
+
+# Build output
+build/
+generated/
+
+# Generated CSV files
+*_auto_entries.csv
+*_finder_audit.csv
+auto_entries.csv
+finder_audit.csv
