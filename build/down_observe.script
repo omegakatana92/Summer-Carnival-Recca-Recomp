@@ -1,0 +1,25 @@
+WAIT 180
+LOG Boot done...
+HOLD START
+WAIT 10
+RELEASE START
+WAIT 300
+LOG Confirm...
+HOLD START
+WAIT 10
+RELEASE START
+WAIT 300
+LOG Gameplay started, waiting...
+WAIT 180
+LOG Pressing DOWN...
+HOLD DOWN
+WAIT 600
+RELEASE DOWN
+WAIT 120
+LOG Still alive?
+WAIT 300
+LOG Screenshot after DOWN
+SCREENSHOT after_down.png
+WAIT 120
+LOG Done
+EXIT 0

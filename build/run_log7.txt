@@ -1,0 +1,42 @@
+[Launcher] ROM: C:\Users\omega\Documents\tools\nesrecomp-cli-windows-x86_64\games\Summer Carnival '92 - Recca (Japan).nes
+[Runner] ROM: 8 PRG banks x 16KB, 16 CHR banks x 8KB, Mapper 4
+[Runner] CHR ROM: loaded 131072 bytes (16 banks)
+[Runner] Vectors: NMI=$DC80 RESET=$FF96 IRQ=$E603
+[Mapper] Init: 8 PRG banks, Mapper 4
+[Mapper] CHR ROM: 16 x 8KB banks (MMC3), initial bank switching applied
+[Keybinds] Loaded C:\Users\omega\Documents\tools\ReccaRecomp\build\keybinds.ini
+[DIAG] game_on_init: PPUCTRL=00 PPUMASK=00 PPUSTATUS=00
+[DIAG] game_on_init: RAM[$00]=00 RAM[$01]=00 RAM[$02]=00
+[Script] Loaded 31 commands from C:\Users\omega\Documents\tools\ReccaRecomp\build\gameplay_test.script
+[ppu_dot] renderer: per-frame (default)
+[Controller] No gamepad detected; keyboard active. Plug one in anytime.
+[APU] Audio device opened: 44100 Hz, 1 ch  (bridge=on, target=60ms)
+[Runner] Starting main game loop...
+[Dispatch] MISS: no func for $A009 bank=6 (cpu=$8009) target=CODE A=0D X=06 Y=00 call_site=$0000
+[Dispatch] NEW miss logged: extra_func 6 0xA009 (frame 0) target=CODE
+[Dispatch] MISS: no func for $A003 bank=6 (cpu=$8003) target=CODE A=05 X=10 Y=00 call_site=$0000
+[Dispatch] NEW miss logged: extra_func 6 0xA003 (frame 0) target=CODE
+[LOG] NMI_enable = 0x1
+[DIAG] frame=0 PPUCTRL=A8 PPUMASK=00 PPUSTATUS=80 fb_nonzero=0 func=func_E510
+[DIAG] frame=1 PPUCTRL=A8 PPUMASK=06 PPUSTATUS=80 fb_nonzero=0 func=func_E510
+[DIAG] frame=2 PPUCTRL=A8 PPUMASK=1E PPUSTATUS=80 fb_nonzero=0 func=func_E510
+[DIAG] frame=3 PPUCTRL=A8 PPUMASK=1E PPUSTATUS=80 fb_nonzero=0 func=func_E510
+[DIAG] frame=4 PPUCTRL=A8 PPUMASK=1E PPUSTATUS=80 fb_nonzero=0 func=func_E510
+[DIAG] frame=34 PPUCTRL=A8 PPUMASK=1E PPUSTATUS=80 fb_nonzero=0 func=func_E510
+[DIAG] frame=64 PPUCTRL=A8 PPUMASK=1E PPUSTATUS=80 fb_nonzero=1 func=func_E510
+[DIAG] frame=94 PPUCTRL=A8 PPUMASK=1E PPUSTATUS=80 fb_nonzero=1 func=func_E510
+[Script] Starting gameplay test...
+[Script] HOLD 10 (held=10)
+[DIAG] frame=124 PPUCTRL=A8 PPUMASK=1E PPUSTATUS=80 fb_nonzero=1 func=func_E510
+[Dispatch] MISS: no func for $FF01 bank=7 (cpu=$FF01) target=ZERO_FILLED A=00 X=03 Y=04 call_site=$203E
+[Dispatch] NEW miss logged: extra_func 7 0xFF01 (frame 126) target=ZERO_FILLED
+[Dispatch] MISS: no func for $203F bank=3 (cpu=$203F) target=ZERO_FILLED A=00 X=02 Y=04 call_site=$0000
+[Dispatch] NEW miss logged: extra_func 3 0x203F (frame 126) target=ZERO_FILLED
+[BRK] executed at $0012 bank=3 (frame 126) — BRK is silently skipped under DIAG; consider real implementation if this site matters.
+[BRK] executed at $000F bank=3 (frame 126) — BRK is silently skipped under DIAG; consider real implementation if this site matters.
+[Script] RELEASE 10 (held=00)
+[BRK] executed at $BC13 bank=3 (frame 153) — BRK is silently skipped under DIAG; consider real implementation if this site matters.
+[DIAG] frame=154 PPUCTRL=88 PPUMASK=1E PPUSTATUS=80 fb_nonzero=1 func=func_E510
+[Dispatch] MISS: no func for $2801 bank=3 (cpu=$2801) target=ZERO_FILLED A=00 X=01 Y=02 call_site=$6200
+[Dispatch] NEW miss logged: extra_func 3 0x2801 (frame 166) target=ZERO_FILLED
+[BRK] executed at $B06D bank=3 (frame 180) — BRK is silently skipped under DIAG; consider real implementation if this site matters.

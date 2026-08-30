@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\omega\Documents\tools\nesrecomp-recca\runner\src\main_runner.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\omega\Documents\tools\nesrecomp-recca\runner\src\runtime.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\omega\Documents\tools\nesrecomp-recca\runner\src\recomp_stack.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\omega\Documents\tools\nesrecomp-recca\runner\src\ppu_renderer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\omega\Documents\tools\nesrecomp-recca\runner\src\ppu_dot.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\omega\Documents\tools\nesrecomp-recca\runner\src\apu.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\omega\Documents\tools\nesrecomp-recca\runner\src\mod_audio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\omega\Documents\tools\nesrecomp-recca\runner\src\mapper.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\omega\Documents\tools\nesrecomp-recca\runner\src\logger.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\omega\Documents\tools\nesrecomp-recca\runner\src\input_script.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\omega\Documents\tools\nesrecomp-recca\runner\src\savestate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\omega\Documents\tools\nesrecomp-recca\runner\src\save_ram.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\omega\Documents\tools\nesrecomp-recca\runner\src\config.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\omega\Documents\tools\nesrecomp-recca\runner\src\launcher.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\omega\Documents\tools\nesrecomp-recca\runner\src\crc32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\omega\Documents\tools\nesrecomp-recca\runner\src\coroutine.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\omega\Documents\tools\nesrecomp-recca\runner\src\interp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\omega\Documents\tools\nesrecomp-recca\recompiler\src\cpu6502_decoder.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\omega\Documents\tools\nesrecomp-recca\runner\src\keybinds.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\omega\Documents\tools\nesrecomp-recca\runner\src\controller.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\omega\Documents\tools\nesrecomp-recca\runner\src\override_chr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\omega\Documents\tools\nesrecomp-recca\runner\src\chr_codec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\omega\Documents\tools\nesrecomp-recca\runner\src\hdpack.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\omega\Documents\tools\nesrecomp-recca\runner\src\audio_shadow.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\omega\Documents\tools\nesrecomp-recca\runner\src\apu_shadow.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\omega\Documents\tools\nesrecomp-recca\runner\src\color_lut.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\omega\Documents\tools\nesrecomp-recca\runner\src\voxel_renderer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\omega\Documents\tools\nesrecomp-recca\runner\src\voxel_screen_profile.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\omega\Documents\tools\nesrecomp-recca\runner\src\foreign_controller.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\omega\Documents\tools\nesrecomp-recca\runner\src\mod_function_hooks.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\omega\Documents\tools\nesrecomp-recca\runner\src\mod_savestate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\omega\Documents\tools\nesrecomp-recca\runner\src\debug_server.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\omega\Documents\tools\ReccaRecomp\extras.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\omega\Documents\tools\ReccaRecomp\generated\Summer-Carnival-92---Recca-Japan_dispatch.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\omega\Documents\tools\ReccaRecomp\generated\Summer-Carnival-92---Recca-Japan_full.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\omega\Documents\tools\ReccaRecomp\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A58D0000-817A-3308-8DAD-40DC058641C4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

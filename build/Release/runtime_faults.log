@@ -1,0 +1,171 @@
+=== runtime fault: unexpected process exit with active recomp stack ===
+frame=1910 cycles=401722461500 cpu A=$E1 X=$24 Y=$0C P=$00 S=$FB
+guest_pc=$E519 valid=1 tick_charged=1
+window=$E000 bank=3 dispatch_depth=14 vblank_depth=3 ops=14892 budget=29781
+mapper type=4 current_bank=3 mirroring=2 select=$07 irq_latch=$CF irq_counter=$00 irq_reload=1 irq_enabled=0
+mapper_regs 40 42 00 00 2B 05 06 07
+last_miss gen=$8A35 cpu=$8A35 bank=6 class=CODE call_site=$140D
+recomp_stack top=445 last=func_FBD6
+  [444] func_FBD6
+  [443] func_FBCC
+  [442] func_FC0A
+  [441] func_FC02
+  [440] func_CEAC
+  [439] func_CDE7
+  [438] func_CE4C
+  [437] func_CDE7
+  [436] func_CE4C
+  [435] func_CDE7
+  [434] func_CE4C
+  [433] func_CDE7
+  [432] func_CE4C
+  [431] func_CDE7
+  [430] func_CD7D
+  [429] func_CD30
+  [428] func_CB25
+  [427] func_E510
+  [426] func_854D_b4
+  [425] func_8023_b4
+  [424] func_8000_b4
+  [423] func_8000_b6
+  [422] func_89BF_b6
+  [421] func_871D_b6
+  [420] func_8000_b6
+  [419] func_D756
+  [418] func_8000_b6
+  [417] func_8000_b6
+  [416] func_EDF6
+  [415] func_D756
+  [414] func_EDF6
+  [413] func_EDF6
+last_dispatches
+  C $D756 cb=-1 S=$FF depth=5 wb=$C000
+  C $D796 cb=-1 S=$FF depth=6 wb=$C000
+  T $D7D0 cb=-1 S=$FF depth=7 wb=$E000
+  C $D7D0 cb=-1 S=$FF depth=7 wb=$E000
+  C $8000 cb=-1 S=$FF depth=8 wb=$C000
+  T $8EFF cb=5 S=$FF depth=9 wb=$8000
+  C $8EFF cb=5 S=$FF depth=9 wb=$8000
+  C $8F19 cb=5 S=$FF depth=10 wb=$8000
+  T $F370 cb=-1 S=$FF depth=11 wb=$8000
+  C $F370 cb=-1 S=$FF depth=11 wb=$8000
+  T $F3F2 cb=-1 S=$FF depth=12 wb=$E000
+  C $F3F2 cb=-1 S=$FF depth=12 wb=$E000
+  T $F458 cb=-1 S=$FF depth=12 wb=$E000
+  C $F458 cb=-1 S=$FF depth=12 wb=$E000
+  T $E11E cb=-1 S=$FF depth=12 wb=$E000
+  C $E11E cb=-1 S=$FF depth=12 wb=$E000
+  C $8F29 cb=5 S=$FF depth=10 wb=$8000
+  T $9B6E cb=5 S=$FF depth=11 wb=$8000
+  C $9B6E cb=5 S=$FF depth=11 wb=$8000
+  C $8F19 cb=5 S=$FF depth=10 wb=$8000
+  T $F321 cb=-1 S=$FF depth=11 wb=$8000
+  C $F321 cb=-1 S=$FF depth=11 wb=$8000
+  C $8F29 cb=5 S=$FF depth=10 wb=$8000
+  T $9B6E cb=5 S=$FF depth=11 wb=$8000
+  C $9B6E cb=5 S=$FF depth=11 wb=$8000
+  C $8006 cb=-1 S=$FF depth=8 wb=$C000
+  T $9015 cb=5 S=$FF depth=9 wb=$8000
+  C $9015 cb=5 S=$FF depth=9 wb=$8000
+  C $904E cb=5 S=$FF depth=10 wb=$8000
+  T $9014 cb=-1 S=$FF depth=11 wb=$8000
+  C $9014 cb=-1 S=$FF depth=11 wb=$8000
+  C $9083 cb=5 S=$FF depth=10 wb=$8000
+  C $904E cb=5 S=$FF depth=10 wb=$8000
+  T $9014 cb=-1 S=$FF depth=11 wb=$8000
+  C $9014 cb=-1 S=$FF depth=11 wb=$8000
+  C $9083 cb=5 S=$FF depth=10 wb=$8000
+  C $9060 cb=5 S=$FF depth=10 wb=$8000
+  T $9B6E cb=5 S=$FF depth=11 wb=$8000
+  C $9B6E cb=5 S=$FF depth=11 wb=$8000
+  C $9060 cb=5 S=$FF depth=10 wb=$8000
+  T $9B6E cb=5 S=$FF depth=11 wb=$8000
+  C $9B6E cb=5 S=$FF depth=11 wb=$8000
+  C $8009 cb=-1 S=$FF depth=8 wb=$C000
+  T $90D6 cb=5 S=$FF depth=9 wb=$8000
+  C $90D6 cb=5 S=$FF depth=9 wb=$8000
+  T $8003 cb=-1 S=$FF depth=8 wb=$C000
+  C $8003 cb=-1 S=$FF depth=8 wb=$C000
+  T $8F55 cb=5 S=$FF depth=9 wb=$8000
+  C $8F55 cb=5 S=$FF depth=9 wb=$8000
+  T $D377 cb=-1 S=$FF depth=7 wb=$C000
+  C $D377 cb=-1 S=$FF depth=7 wb=$C000
+  C $8000 cb=-1 S=$FF depth=6 wb=$C000
+  T $871D cb=6 S=$FF depth=7 wb=$8000
+  C $871D cb=6 S=$FF depth=7 wb=$8000
+  C $8BBE cb=6 S=$FF depth=8 wb=$8000
+  T $8CB3 cb=-1 S=$FF depth=9 wb=$E000
+  C $8CB3 cb=-1 S=$FF depth=9 wb=$E000
+  C $874A cb=6 S=$FF depth=8 wb=$8000
+  T $8749 cb=-1 S=$FF depth=9 wb=$8000
+  C $8749 cb=-1 S=$FF depth=9 wb=$8000
+  T $8749 cb=-1 S=$FF depth=8 wb=$8000
+  C $8749 cb=-1 S=$FF depth=8 wb=$8000
+  C $8009 cb=-1 S=$FF depth=6 wb=$C000
+  T $816C cb=6 S=$FF depth=7 wb=$8000
+  C $816C cb=6 S=$FF depth=7 wb=$8000
+  C $8707 cb=6 S=$FF depth=8 wb=$8000
+  C $84CE cb=6 S=$FF depth=8 wb=$8000
+  C $8561 cb=6 S=$FF depth=8 wb=$8000
+  T $8000 cb=-1 S=$FF depth=6 wb=$C000
+  C $8000 cb=-1 S=$FF depth=6 wb=$C000
+  T $8023 cb=4 S=$FF depth=7 wb=$8000
+  C $8023 cb=4 S=$FF depth=7 wb=$8000
+  T $854D cb=-1 S=$FF depth=8 wb=$8000
+  C $854D cb=-1 S=$FF depth=8 wb=$8000
+  T $8050 cb=4 S=$FF depth=9 wb=$8000
+  C $8050 cb=4 S=$FF depth=9 wb=$8000
+  N $0002 cb=-1 S=$FC depth=5 wb=$E000
+  C $DE39 cb=-1 S=$F9 depth=5 wb=$C000
+  T $E11E cb=-1 S=$F9 depth=6 wb=$C000
+  C $E11E cb=-1 S=$F9 depth=6 wb=$C000
+  C $DCCE cb=-1 S=$F9 depth=5 wb=$C000
+  C $CB25 cb=-1 S=$F9 depth=5 wb=$C000
+  C $CF72 cb=-1 S=$F9 depth=6 wb=$C000
+  C $CFF3 cb=-1 S=$F9 depth=6 wb=$C000
+  C $CD30 cb=-1 S=$F9 depth=6 wb=$C000
+  C $CD7D cb=-1 S=$F9 depth=7 wb=$C000
+  T $CDE7 cb=-1 S=$F9 depth=8 wb=$C000
+  C $CDE7 cb=-1 S=$F9 depth=8 wb=$C000
+  T $CF55 cb=-1 S=$F9 depth=9 wb=$C000
+  C $CF55 cb=-1 S=$F9 depth=9 wb=$C000
+  C $CD7D cb=-1 S=$F9 depth=7 wb=$C000
+  T $CDE7 cb=-1 S=$F9 depth=8 wb=$C000
+  C $CDE7 cb=-1 S=$F9 depth=8 wb=$C000
+  T $CE4C cb=-1 S=$F9 depth=9 wb=$C000
+  C $CE4C cb=-1 S=$F9 depth=9 wb=$C000
+  T $CD93 cb=-1 S=$F9 depth=10 wb=$C000
+  C $CD93 cb=-1 S=$F9 depth=10 wb=$C000
+  D $CDE7 cb=-1 S=$F9 depth=8 wb=$C000
+  C $CDE7 cb=-1 S=$F9 depth=8 wb=$C000
+  T $CE4C cb=-1 S=$F9 depth=9 wb=$C000
+  C $CE4C cb=-1 S=$F9 depth=9 wb=$C000
+  T $CD93 cb=-1 S=$F9 depth=10 wb=$C000
+  C $CD93 cb=-1 S=$F9 depth=10 wb=$C000
+  D $CDE7 cb=-1 S=$F9 depth=8 wb=$C000
+  C $CDE7 cb=-1 S=$F9 depth=8 wb=$C000
+  T $CE4C cb=-1 S=$F9 depth=9 wb=$C000
+  C $CE4C cb=-1 S=$F9 depth=9 wb=$C000
+  T $CD93 cb=-1 S=$F9 depth=10 wb=$C000
+  C $CD93 cb=-1 S=$F9 depth=10 wb=$C000
+  D $CDE7 cb=-1 S=$F9 depth=8 wb=$C000
+  C $CDE7 cb=-1 S=$F9 depth=8 wb=$C000
+  T $CE4C cb=-1 S=$F9 depth=9 wb=$C000
+  C $CE4C cb=-1 S=$F9 depth=9 wb=$C000
+  T $CD93 cb=-1 S=$F9 depth=10 wb=$C000
+  C $CD93 cb=-1 S=$F9 depth=10 wb=$C000
+  D $CDE7 cb=-1 S=$F9 depth=8 wb=$C000
+  C $CDE7 cb=-1 S=$F9 depth=8 wb=$C000
+  T $CEAC cb=-1 S=$F9 depth=9 wb=$C000
+  C $CEAC cb=-1 S=$F9 depth=9 wb=$C000
+  C $CD5F cb=-1 S=$F9 depth=10 wb=$C000
+  T $FC02 cb=-1 S=$FB depth=10 wb=$C000
+  C $FC02 cb=-1 S=$FB depth=10 wb=$C000
+  T $FC0A cb=-1 S=$FB depth=11 wb=$E000
+  C $FC0A cb=-1 S=$FB depth=11 wb=$E000
+  T $FBCC cb=-1 S=$FB depth=12 wb=$E000
+  C $FBCC cb=-1 S=$FB depth=12 wb=$E000
+  T $FBD6 cb=-1 S=$FB depth=13 wb=$E000
+  C $FBD6 cb=-1 S=$FB depth=13 wb=$E000
+=== end runtime fault ===
+

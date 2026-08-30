@@ -1,0 +1,2684 @@
+=== dispatch fault 1 frame=0 cycles=124656 ===
+target gen=$A009 cpu=$8009 bank=6 class=CODE call_site=$0000
+cpu A=$0D X=$06 Y=$00 P=$00 S=$FF window=$8000 dispatch_depth=3 vblank_depth=0 ops=5534 budget=29781
+mapper type=4 current_bank=6 mirroring=2 select=$06 irq_latch=$00 irq_counter=$00 irq_reload=0 irq_enabled=0
+mapper_regs 00 00 00 00 00 00 0D 07
+caller (none)
+caller2 (none)
+target_bytes 4C 15 80 4C 50 80 4C F1
+stack_bytes 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+last_dispatches
+  T $D269 cb=-1 S=$FD depth=0 wb=$E000
+  C $D269 cb=-1 S=$FD depth=0 wb=$E000
+  C $D2F6 cb=-1 S=$FF depth=1 wb=$C000
+  C $CFBF cb=-1 S=$FF depth=1 wb=$C000
+  C $CFF3 cb=-1 S=$FF depth=2 wb=$C000
+  T $D406 cb=-1 S=$FF depth=1 wb=$C000
+  C $D406 cb=-1 S=$FF depth=1 wb=$C000
+  C $8009 cb=-1 S=$FF depth=2 wb=$C000
+=== end dispatch fault ===
+
+=== dispatch fault 2 frame=0 cycles=191343 ===
+target gen=$A003 cpu=$8003 bank=6 class=CODE call_site=$0000
+cpu A=$05 X=$10 Y=$00 P=$00 S=$FF window=$8000 dispatch_depth=4 vblank_depth=0 ops=12659 budget=29780
+mapper type=4 current_bank=6 mirroring=3 select=$07 irq_latch=$00 irq_counter=$00 irq_reload=0 irq_enabled=0
+mapper_regs 00 00 00 00 00 00 0D 05
+caller (none)
+caller2 (none)
+target_bytes 4C 85 86 4C 95 87 4C 15
+stack_bytes 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+last_dispatches
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $8003 cb=-1 S=$FF depth=3 wb=$C000
+=== end dispatch fault ===
+
+=== dispatch fault 3 frame=37 cycles=1284326 ===
+target gen=$D7C4 cpu=$D7C4 bank=7 class=CODE call_site=$023C
+cpu A=$D7 X=$07 Y=$01 P=$00 S=$FD window=$C000 dispatch_depth=5 vblank_depth=0 ops=3763 budget=29780
+mapper type=4 current_bank=5 mirroring=3 select=$07 irq_latch=$00 irq_counter=$00 irq_reload=0 irq_enabled=0
+mapper_regs 6A 6A 01 05 00 00 0A 0B
+caller func_EDF6
+caller2 (none)
+target_bytes 20 09 80 20 00 80 20 03
+stack_bytes 3C 02 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+last_dispatches
+  T $CC66 cb=-1 S=$F8 depth=5 wb=$C000
+  C $CC66 cb=-1 S=$F8 depth=5 wb=$C000
+  n $0002 cb=-1 S=$FE depth=3 wb=$E000
+  T $D9F0 cb=-1 S=$FE depth=3 wb=$E000
+  C $D9F0 cb=-1 S=$FE depth=3 wb=$E000
+  N $0002 cb=-1 S=$FB depth=3 wb=$E000
+  C $DE39 cb=-1 S=$F8 depth=3 wb=$C000
+  T $E11E cb=-1 S=$F8 depth=4 wb=$C000
+  C $E11E cb=-1 S=$F8 depth=4 wb=$C000
+  T $E11E cb=-1 S=$F8 depth=3 wb=$E000
+  C $E11E cb=-1 S=$F8 depth=3 wb=$E000
+  C $DCCE cb=-1 S=$F8 depth=3 wb=$C000
+  C $CB25 cb=-1 S=$F8 depth=3 wb=$C000
+  C $CD30 cb=-1 S=$F8 depth=4 wb=$C000
+  C $CD30 cb=-1 S=$F8 depth=4 wb=$C000
+  C $CC71 cb=-1 S=$F8 depth=4 wb=$C000
+  T $CC66 cb=-1 S=$F8 depth=5 wb=$C000
+  C $CC66 cb=-1 S=$F8 depth=5 wb=$C000
+  C $CCDA cb=-1 S=$F8 depth=4 wb=$C000
+  C $CC71 cb=-1 S=$F8 depth=4 wb=$C000
+  T $CC66 cb=-1 S=$F8 depth=5 wb=$C000
+  C $CC66 cb=-1 S=$F8 depth=5 wb=$C000
+  C $CCDA cb=-1 S=$F8 depth=4 wb=$C000
+  C $CC71 cb=-1 S=$F8 depth=4 wb=$C000
+  T $CC66 cb=-1 S=$F8 depth=5 wb=$C000
+  C $CC66 cb=-1 S=$F8 depth=5 wb=$C000
+  C $CCDA cb=-1 S=$F8 depth=4 wb=$C000
+  C $CC71 cb=-1 S=$F8 depth=4 wb=$C000
+  T $CC66 cb=-1 S=$F8 depth=5 wb=$C000
+  C $CC66 cb=-1 S=$F8 depth=5 wb=$C000
+  n $0002 cb=-1 S=$FE depth=3 wb=$E000
+  T $D9F0 cb=-1 S=$FE depth=3 wb=$E000
+  C $D9F0 cb=-1 S=$FE depth=3 wb=$E000
+  N $0002 cb=-1 S=$FA depth=3 wb=$E000
+  C $DE39 cb=-1 S=$F7 depth=3 wb=$C000
+  T $E11E cb=-1 S=$F7 depth=4 wb=$C000
+  C $E11E cb=-1 S=$F7 depth=4 wb=$C000
+  T $E11E cb=-1 S=$F7 depth=3 wb=$E000
+  C $E11E cb=-1 S=$F7 depth=3 wb=$E000
+  C $DCCE cb=-1 S=$F7 depth=3 wb=$C000
+  C $CB25 cb=-1 S=$F7 depth=3 wb=$C000
+  C $CD30 cb=-1 S=$F7 depth=4 wb=$C000
+  C $CD30 cb=-1 S=$F7 depth=4 wb=$C000
+  C $CC71 cb=-1 S=$F7 depth=4 wb=$C000
+  T $CC66 cb=-1 S=$F7 depth=5 wb=$C000
+  C $CC66 cb=-1 S=$F7 depth=5 wb=$C000
+  C $CCDA cb=-1 S=$F7 depth=4 wb=$C000
+  C $CC71 cb=-1 S=$F7 depth=4 wb=$C000
+  T $CC66 cb=-1 S=$F7 depth=5 wb=$C000
+  C $CC66 cb=-1 S=$F7 depth=5 wb=$C000
+  C $CCDA cb=-1 S=$F7 depth=4 wb=$C000
+  C $CC71 cb=-1 S=$F7 depth=4 wb=$C000
+  T $CC66 cb=-1 S=$F7 depth=5 wb=$C000
+  C $CC66 cb=-1 S=$F7 depth=5 wb=$C000
+  C $CCDA cb=-1 S=$F7 depth=4 wb=$C000
+  C $CC71 cb=-1 S=$F7 depth=4 wb=$C000
+  T $CC66 cb=-1 S=$F7 depth=5 wb=$C000
+  C $CC66 cb=-1 S=$F7 depth=5 wb=$C000
+  n $0002 cb=-1 S=$FD depth=3 wb=$E000
+  T $D9F0 cb=-1 S=$FD depth=3 wb=$E000
+  C $D9F0 cb=-1 S=$FD depth=3 wb=$E000
+  C $D796 cb=-1 S=$FD depth=3 wb=$C000
+  T $D7C4 cb=-1 S=$FD depth=4 wb=$E000
+  C $D7C4 cb=-1 S=$FD depth=4 wb=$E000
+=== end dispatch fault ===
+
+=== dispatch fault 4 frame=40 cycles=1373670 ===
+target gen=$D7B8 cpu=$D7B8 bank=7 class=CODE call_site=$0239
+cpu A=$D7 X=$07 Y=$00 P=$00 S=$FD window=$C000 dispatch_depth=5 vblank_depth=0 ops=3766 budget=29781
+mapper type=4 current_bank=5 mirroring=3 select=$07 irq_latch=$00 irq_counter=$00 irq_reload=0 irq_enabled=0
+mapper_regs 6A 6A 01 05 00 00 0A 0B
+caller func_EDF6
+caller2 (none)
+target_bytes 20 00 80 20 09 80 20 03
+stack_bytes 39 02 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+last_dispatches
+  C $911A cb=5 S=$FD depth=7 wb=$8000
+  T $9B6E cb=5 S=$FD depth=8 wb=$8000
+  C $9B6E cb=5 S=$FD depth=8 wb=$8000
+  C $910A cb=5 S=$FD depth=7 wb=$8000
+  T $99E7 cb=-1 S=$FD depth=8 wb=$8000
+  C $99E7 cb=-1 S=$FD depth=8 wb=$8000
+  C $9A4C cb=5 S=$FD depth=9 wb=$8000
+  T $9A69 cb=5 S=$FD depth=9 wb=$8000
+  C $9A69 cb=5 S=$FD depth=9 wb=$8000
+  C $913C cb=5 S=$FD depth=7 wb=$8000
+  T $917D cb=5 S=$FD depth=8 wb=$8000
+  C $917D cb=5 S=$FD depth=8 wb=$8000
+  C $911A cb=5 S=$FD depth=7 wb=$8000
+  T $9B6E cb=5 S=$FD depth=8 wb=$8000
+  C $9B6E cb=5 S=$FD depth=8 wb=$8000
+  C $910A cb=5 S=$FD depth=7 wb=$8000
+  T $99E7 cb=-1 S=$FD depth=8 wb=$8000
+  C $99E7 cb=-1 S=$FD depth=8 wb=$8000
+  C $9A4C cb=5 S=$FD depth=9 wb=$8000
+  T $9A69 cb=5 S=$FD depth=9 wb=$8000
+  C $9A69 cb=5 S=$FD depth=9 wb=$8000
+  C $913C cb=5 S=$FD depth=7 wb=$8000
+  T $917D cb=5 S=$FD depth=8 wb=$8000
+  C $917D cb=5 S=$FD depth=8 wb=$8000
+  C $911A cb=5 S=$FD depth=7 wb=$8000
+  T $9B6E cb=5 S=$FD depth=8 wb=$8000
+  C $9B6E cb=5 S=$FD depth=8 wb=$8000
+  T $8003 cb=-1 S=$FD depth=5 wb=$C000
+  C $8003 cb=-1 S=$FD depth=5 wb=$C000
+  T $8F55 cb=5 S=$FD depth=6 wb=$8000
+  C $8F55 cb=5 S=$FD depth=6 wb=$8000
+  T $D377 cb=-1 S=$FD depth=4 wb=$C000
+  C $D377 cb=-1 S=$FD depth=4 wb=$C000
+  N $0002 cb=-1 S=$FA depth=3 wb=$E000
+  C $DE39 cb=-1 S=$F7 depth=3 wb=$C000
+  T $E11E cb=-1 S=$F7 depth=4 wb=$C000
+  C $E11E cb=-1 S=$F7 depth=4 wb=$C000
+  T $E11E cb=-1 S=$F7 depth=3 wb=$E000
+  C $E11E cb=-1 S=$F7 depth=3 wb=$E000
+  C $DCCE cb=-1 S=$F7 depth=3 wb=$C000
+  C $CB25 cb=-1 S=$F7 depth=3 wb=$C000
+  C $CD30 cb=-1 S=$F7 depth=4 wb=$C000
+  C $CD30 cb=-1 S=$F7 depth=4 wb=$C000
+  C $CC71 cb=-1 S=$F7 depth=4 wb=$C000
+  T $CC66 cb=-1 S=$F7 depth=5 wb=$C000
+  C $CC66 cb=-1 S=$F7 depth=5 wb=$C000
+  C $CCDA cb=-1 S=$F7 depth=4 wb=$C000
+  C $CC71 cb=-1 S=$F7 depth=4 wb=$C000
+  T $CC66 cb=-1 S=$F7 depth=5 wb=$C000
+  C $CC66 cb=-1 S=$F7 depth=5 wb=$C000
+  C $CCDA cb=-1 S=$F7 depth=4 wb=$C000
+  C $CC71 cb=-1 S=$F7 depth=4 wb=$C000
+  T $CC66 cb=-1 S=$F7 depth=5 wb=$C000
+  C $CC66 cb=-1 S=$F7 depth=5 wb=$C000
+  C $CCDA cb=-1 S=$F7 depth=4 wb=$C000
+  C $CC71 cb=-1 S=$F7 depth=4 wb=$C000
+  T $CC66 cb=-1 S=$F7 depth=5 wb=$C000
+  C $CC66 cb=-1 S=$F7 depth=5 wb=$C000
+  n $0002 cb=-1 S=$FD depth=3 wb=$E000
+  T $D9F0 cb=-1 S=$FD depth=3 wb=$E000
+  C $D9F0 cb=-1 S=$FD depth=3 wb=$E000
+  C $D796 cb=-1 S=$FD depth=3 wb=$C000
+  T $D7B8 cb=-1 S=$FD depth=4 wb=$E000
+  C $D7B8 cb=-1 S=$FD depth=4 wb=$E000
+=== end dispatch fault ===
+
+=== dispatch fault 5 frame=221 cycles=6835927 ===
+target gen=$89DD cpu=$89DD bank=6 class=CODE call_site=$0000
+cpu A=$89 X=$03 Y=$01 P=$00 S=$FF window=$8000 dispatch_depth=7 vblank_depth=0 ops=16191 budget=29780
+mapper type=4 current_bank=6 mirroring=3 select=$06 irq_latch=$00 irq_counter=$00 irq_reload=0 irq_enabled=0
+mapper_regs 6A 6A 01 05 00 00 0C 05
+caller func_EDF6
+caller2 func_89BF_b6
+target_bytes 86 33 8A 0A 65 33 A8 A9
+stack_bytes 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+last_dispatches
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $DB92 cb=-1 S=$FF depth=3 wb=$C000
+  C $D341 cb=-1 S=$FF depth=4 wb=$C000
+  T $D377 cb=-1 S=$FF depth=4 wb=$C000
+  C $D377 cb=-1 S=$FF depth=4 wb=$C000
+  C $DC27 cb=-1 S=$FF depth=3 wb=$C000
+  C $DBAF cb=-1 S=$FF depth=3 wb=$C000
+  C $8021 cb=-1 S=$FF depth=4 wb=$C000
+  T $89BF cb=6 S=$FF depth=5 wb=$8000
+  C $89BF cb=6 S=$FF depth=5 wb=$8000
+  T $89DD cb=-1 S=$FF depth=6 wb=$E000
+  C $89DD cb=-1 S=$FF depth=6 wb=$E000
+=== end dispatch fault ===
+
+=== dispatch fault 6 frame=221 cycles=6851976 ===
+target gen=$FF01 cpu=$FF01 bank=7 class=ZERO_FILLED call_site=$6041
+cpu A=$00 X=$03 Y=$04 P=$00 S=$FB window=$E000 dispatch_depth=9 vblank_depth=2 ops=2460 budget=29781
+mapper type=4 current_bank=3 mirroring=3 select=$07 irq_latch=$7F irq_counter=$00 irq_reload=1 irq_enabled=1
+mapper_regs 3C 3E 00 00 00 00 06 07
+caller func_CEAC
+caller2 func_CDE7
+target_bytes 00 00 00 00 00 00 00 00
+stack_bytes 41 60 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+last_dispatches
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $DB92 cb=-1 S=$FF depth=3 wb=$C000
+  C $D341 cb=-1 S=$FF depth=4 wb=$C000
+  T $D377 cb=-1 S=$FF depth=4 wb=$C000
+  C $D377 cb=-1 S=$FF depth=4 wb=$C000
+  C $DC27 cb=-1 S=$FF depth=3 wb=$C000
+  C $DBAF cb=-1 S=$FF depth=3 wb=$C000
+  C $8021 cb=-1 S=$FF depth=4 wb=$C000
+  T $89BF cb=6 S=$FF depth=5 wb=$8000
+  C $89BF cb=6 S=$FF depth=5 wb=$8000
+  T $89DD cb=-1 S=$FF depth=6 wb=$E000
+  C $89DD cb=-1 S=$FF depth=6 wb=$E000
+  T $89DD cb=-1 S=$FF depth=6 wb=$E000
+  C $89DD cb=-1 S=$FF depth=6 wb=$E000
+  T $89DD cb=-1 S=$FF depth=6 wb=$E000
+  C $89DD cb=-1 S=$FF depth=6 wb=$E000
+  T $89DD cb=-1 S=$FF depth=6 wb=$E000
+  C $89DD cb=-1 S=$FF depth=6 wb=$E000
+  N $0002 cb=-1 S=$FC depth=3 wb=$E000
+  C $DE39 cb=-1 S=$F9 depth=3 wb=$C000
+  T $E11E cb=-1 S=$F9 depth=4 wb=$C000
+  C $E11E cb=-1 S=$F9 depth=4 wb=$C000
+  T $E11E cb=-1 S=$F9 depth=3 wb=$E000
+  C $E11E cb=-1 S=$F9 depth=3 wb=$E000
+  C $DCCE cb=-1 S=$F9 depth=3 wb=$C000
+  C $CB25 cb=-1 S=$F9 depth=3 wb=$C000
+  C $CF72 cb=-1 S=$F9 depth=4 wb=$C000
+  C $CFF3 cb=-1 S=$F9 depth=4 wb=$C000
+  C $CD30 cb=-1 S=$F9 depth=4 wb=$C000
+  C $CD7D cb=-1 S=$F9 depth=5 wb=$C000
+  T $CDE7 cb=-1 S=$F9 depth=6 wb=$C000
+  C $CDE7 cb=-1 S=$F9 depth=6 wb=$C000
+  T $CEAC cb=-1 S=$F9 depth=7 wb=$C000
+  C $CEAC cb=-1 S=$F9 depth=7 wb=$C000
+  D $CDE7 cb=-1 S=$F9 depth=6 wb=$C000
+  C $CDE7 cb=-1 S=$F9 depth=6 wb=$C000
+  T $CEF0 cb=-1 S=$F9 depth=7 wb=$C000
+  C $CEF0 cb=-1 S=$F9 depth=7 wb=$C000
+  C $CD5F cb=-1 S=$F9 depth=8 wb=$C000
+  C $CD7D cb=-1 S=$F9 depth=5 wb=$C000
+  T $CDE7 cb=-1 S=$F9 depth=6 wb=$C000
+  C $CDE7 cb=-1 S=$F9 depth=6 wb=$C000
+  T $CE4C cb=-1 S=$F9 depth=7 wb=$C000
+  C $CE4C cb=-1 S=$F9 depth=7 wb=$C000
+  T $CD93 cb=-1 S=$F9 depth=8 wb=$C000
+  C $CD93 cb=-1 S=$F9 depth=8 wb=$C000
+  D $CDE7 cb=-1 S=$F9 depth=6 wb=$C000
+  C $CDE7 cb=-1 S=$F9 depth=6 wb=$C000
+  T $CEF0 cb=-1 S=$F9 depth=7 wb=$C000
+  C $CEF0 cb=-1 S=$F9 depth=7 wb=$C000
+  D $CDE7 cb=-1 S=$F9 depth=6 wb=$C000
+  C $CDE7 cb=-1 S=$F9 depth=6 wb=$C000
+  T $CEAC cb=-1 S=$F9 depth=7 wb=$C000
+  C $CEAC cb=-1 S=$F9 depth=7 wb=$C000
+  C $CD5F cb=-1 S=$F9 depth=8 wb=$C000
+  T $FF01 cb=-1 S=$FB depth=8 wb=$C000
+  C $FF01 cb=-1 S=$FB depth=8 wb=$C000
+=== end dispatch fault ===
+
+=== dispatch fault 7 frame=221 cycles=13593394 ===
+target gen=$E9AE cpu=$E9AE bank=7 class=CODE call_site=$FF00
+cpu A=$00 X=$FF Y=$00 P=$00 S=$F9 window=$E000 dispatch_depth=4 vblank_depth=1 ops=43265 budget=29780
+mapper type=4 current_bank=6 mirroring=3 select=$07 irq_latch=$1C irq_counter=$00 irq_reload=0 irq_enabled=1
+mapper_regs 3C 3E 00 00 00 00 0C 05
+caller func_E603
+caller2 func_CDE7
+target_bytes A9 00 8D 00 E0 A2 07 CA
+stack_bytes 00 FF 41 60 00 00 00 00 00 00 00 00 00 00 00 00
+last_dispatches
+  C $CD7D cb=-1 S=$04 depth=5 wb=$C000
+  T $CDE7 cb=-1 S=$04 depth=6 wb=$C000
+  C $CDE7 cb=-1 S=$04 depth=6 wb=$C000
+  T $CED7 cb=-1 S=$04 depth=7 wb=$C000
+  C $CED7 cb=-1 S=$04 depth=7 wb=$C000
+  D $CDE7 cb=-1 S=$04 depth=6 wb=$C000
+  C $CDE7 cb=-1 S=$04 depth=6 wb=$C000
+  T $CE4C cb=-1 S=$04 depth=7 wb=$C000
+  C $CE4C cb=-1 S=$04 depth=7 wb=$C000
+  T $CD93 cb=-1 S=$04 depth=8 wb=$C000
+  C $CD93 cb=-1 S=$04 depth=8 wb=$C000
+  D $CDE7 cb=-1 S=$04 depth=6 wb=$C000
+  C $CDE7 cb=-1 S=$04 depth=6 wb=$C000
+  T $CE4C cb=-1 S=$04 depth=7 wb=$C000
+  C $CE4C cb=-1 S=$04 depth=7 wb=$C000
+  T $CD93 cb=-1 S=$04 depth=8 wb=$C000
+  C $CD93 cb=-1 S=$04 depth=8 wb=$C000
+  D $CDE7 cb=-1 S=$04 depth=6 wb=$C000
+  C $CDE7 cb=-1 S=$04 depth=6 wb=$C000
+  T $CE4C cb=-1 S=$04 depth=7 wb=$C000
+  C $CE4C cb=-1 S=$04 depth=7 wb=$C000
+  T $CD93 cb=-1 S=$04 depth=8 wb=$C000
+  C $CD93 cb=-1 S=$04 depth=8 wb=$C000
+  D $CDE7 cb=-1 S=$04 depth=6 wb=$C000
+  C $CDE7 cb=-1 S=$04 depth=6 wb=$C000
+  T $CE78 cb=-1 S=$04 depth=7 wb=$C000
+  C $CE78 cb=-1 S=$04 depth=7 wb=$C000
+  D $CDE7 cb=-1 S=$04 depth=6 wb=$C000
+  C $CDE7 cb=-1 S=$04 depth=6 wb=$C000
+  T $CE78 cb=-1 S=$04 depth=7 wb=$C000
+  C $CE78 cb=-1 S=$04 depth=7 wb=$C000
+  D $CDE7 cb=-1 S=$04 depth=6 wb=$C000
+  C $CDE7 cb=-1 S=$04 depth=6 wb=$C000
+  T $CECE cb=-1 S=$04 depth=7 wb=$C000
+  C $CECE cb=-1 S=$04 depth=7 wb=$C000
+  D $CDE7 cb=-1 S=$04 depth=6 wb=$C000
+  C $CDE7 cb=-1 S=$04 depth=6 wb=$C000
+  T $CE9C cb=-1 S=$04 depth=7 wb=$C000
+  C $CE9C cb=-1 S=$04 depth=7 wb=$C000
+  D $CDE7 cb=-1 S=$04 depth=6 wb=$C000
+  C $CDE7 cb=-1 S=$04 depth=6 wb=$C000
+  T $CEAC cb=-1 S=$04 depth=7 wb=$C000
+  C $CEAC cb=-1 S=$04 depth=7 wb=$C000
+  D $CDE7 cb=-1 S=$04 depth=6 wb=$C000
+  C $CDE7 cb=-1 S=$04 depth=6 wb=$C000
+  T $CEAC cb=-1 S=$04 depth=7 wb=$C000
+  C $CEAC cb=-1 S=$04 depth=7 wb=$C000
+  C $CD5F cb=-1 S=$04 depth=8 wb=$C000
+  T $0001 cb=-1 S=$06 depth=8 wb=$C000
+  C $0001 cb=-1 S=$06 depth=8 wb=$C000
+  I $0001 cb=-1 S=$06 depth=9 wb=$C000
+  C $CD30 cb=-1 S=$06 depth=4 wb=$C000
+  C $CC71 cb=-1 S=$06 depth=4 wb=$C000
+  C $CCDA cb=-1 S=$06 depth=4 wb=$C000
+  C $CC71 cb=-1 S=$06 depth=4 wb=$C000
+  C $CCDA cb=-1 S=$06 depth=4 wb=$C000
+  C $CC71 cb=-1 S=$06 depth=4 wb=$C000
+  C $CCDA cb=-1 S=$06 depth=4 wb=$C000
+  C $CC71 cb=-1 S=$06 depth=4 wb=$C000
+  T $CC61 cb=-1 S=$06 depth=5 wb=$C000
+  C $CC61 cb=-1 S=$06 depth=5 wb=$C000
+  n $0002 cb=-1 S=$0C depth=3 wb=$E000
+  T $E9AE cb=-1 S=$F9 depth=3 wb=$E000
+  C $E9AE cb=-1 S=$F9 depth=3 wb=$E000
+=== end dispatch fault ===
+
+=== dispatch fault 8 frame=223 cycles=20342893 ===
+target gen=$A013 cpu=$A013 bank=3 class=CODE call_site=$0000
+cpu A=$00 X=$02 Y=$04 P=$00 S=$FB window=$A000 dispatch_depth=11 vblank_depth=2 ops=2810 budget=29780
+mapper type=4 current_bank=3 mirroring=3 select=$07 irq_latch=$7F irq_counter=$00 irq_reload=1 irq_enabled=1
+mapper_regs 3C 3E 00 00 00 00 06 07
+caller func_CE78
+caller2 func_CDE7
+target_bytes 9C A0 F5 12 A0 F8 02 F4
+stack_bytes 00 00 03 2D 00 00 00 00 00 00 00 00 00 00 00 00
+last_dispatches
+  C $D9F0 cb=-1 S=$FF depth=3 wb=$E000
+  C $DBAF cb=-1 S=$FF depth=3 wb=$C000
+  C $8021 cb=-1 S=$FF depth=4 wb=$C000
+  T $89BF cb=6 S=$FF depth=5 wb=$8000
+  C $89BF cb=6 S=$FF depth=5 wb=$8000
+  T $89DD cb=-1 S=$FF depth=6 wb=$E000
+  C $89DD cb=-1 S=$FF depth=6 wb=$E000
+  T $89DD cb=-1 S=$FF depth=6 wb=$E000
+  C $89DD cb=-1 S=$FF depth=6 wb=$E000
+  T $89DD cb=-1 S=$FF depth=6 wb=$E000
+  C $89DD cb=-1 S=$FF depth=6 wb=$E000
+  T $89DD cb=-1 S=$FF depth=6 wb=$E000
+  C $89DD cb=-1 S=$FF depth=6 wb=$E000
+  C $DB65 cb=-1 S=$FF depth=3 wb=$C000
+  C $DB92 cb=-1 S=$FF depth=3 wb=$C000
+  C $D341 cb=-1 S=$FF depth=4 wb=$C000
+  N $0002 cb=-1 S=$FA depth=5 wb=$C000
+  C $DE39 cb=-1 S=$F7 depth=5 wb=$C000
+  T $E11E cb=-1 S=$F7 depth=6 wb=$C000
+  C $E11E cb=-1 S=$F7 depth=6 wb=$C000
+  T $E11E cb=-1 S=$F7 depth=5 wb=$E000
+  C $E11E cb=-1 S=$F7 depth=5 wb=$E000
+  C $DCCE cb=-1 S=$F7 depth=5 wb=$C000
+  C $CB25 cb=-1 S=$F7 depth=5 wb=$C000
+  C $CF72 cb=-1 S=$F7 depth=6 wb=$C000
+  C $CFF3 cb=-1 S=$F7 depth=6 wb=$C000
+  C $CD30 cb=-1 S=$F7 depth=6 wb=$C000
+  C $CD7D cb=-1 S=$F7 depth=7 wb=$C000
+  T $CDE7 cb=-1 S=$F7 depth=8 wb=$C000
+  C $CDE7 cb=-1 S=$F7 depth=8 wb=$C000
+  T $CEAC cb=-1 S=$F7 depth=9 wb=$C000
+  C $CEAC cb=-1 S=$F7 depth=9 wb=$C000
+  D $CDE7 cb=-1 S=$F7 depth=8 wb=$C000
+  C $CDE7 cb=-1 S=$F7 depth=8 wb=$C000
+  T $CEF0 cb=-1 S=$F7 depth=9 wb=$C000
+  C $CEF0 cb=-1 S=$F7 depth=9 wb=$C000
+  C $CD5F cb=-1 S=$F7 depth=10 wb=$C000
+  C $CD7D cb=-1 S=$F7 depth=7 wb=$C000
+  T $CDE7 cb=-1 S=$F7 depth=8 wb=$C000
+  C $CDE7 cb=-1 S=$F7 depth=8 wb=$C000
+  T $CE4C cb=-1 S=$F7 depth=9 wb=$C000
+  C $CE4C cb=-1 S=$F7 depth=9 wb=$C000
+  T $CD93 cb=-1 S=$F7 depth=10 wb=$C000
+  C $CD93 cb=-1 S=$F7 depth=10 wb=$C000
+  D $CDE7 cb=-1 S=$F7 depth=8 wb=$C000
+  C $CDE7 cb=-1 S=$F7 depth=8 wb=$C000
+  T $CEF0 cb=-1 S=$F7 depth=9 wb=$C000
+  C $CEF0 cb=-1 S=$F7 depth=9 wb=$C000
+  D $CDE7 cb=-1 S=$F7 depth=8 wb=$C000
+  C $CDE7 cb=-1 S=$F7 depth=8 wb=$C000
+  T $CEAC cb=-1 S=$F7 depth=9 wb=$C000
+  C $CEAC cb=-1 S=$F7 depth=9 wb=$C000
+  C $CD5F cb=-1 S=$F7 depth=10 wb=$C000
+  T $0301 cb=-1 S=$F9 depth=10 wb=$C000
+  C $0301 cb=-1 S=$F9 depth=10 wb=$C000
+  I $0301 cb=-1 S=$F9 depth=11 wb=$C000
+  C $CD7D cb=-1 S=$F9 depth=7 wb=$C000
+  T $CDE7 cb=-1 S=$F9 depth=8 wb=$C000
+  C $CDE7 cb=-1 S=$F9 depth=8 wb=$C000
+  T $CE78 cb=-1 S=$F9 depth=9 wb=$C000
+  C $CE78 cb=-1 S=$F9 depth=9 wb=$C000
+  C $CD5F cb=-1 S=$F9 depth=10 wb=$C000
+  T $A013 cb=-1 S=$FB depth=10 wb=$C000
+  C $A013 cb=-1 S=$FB depth=10 wb=$C000
+=== end dispatch fault ===
+
+=== dispatch fault 9 frame=223 cycles=20344918 ===
+target gen=$2D04 cpu=$2D04 bank=3 class=ZERO_FILLED call_site=$0000
+cpu A=$00 X=$00 Y=$15 P=$00 S=$FF window=$C000 dispatch_depth=11 vblank_depth=2 ops=4835 budget=29780
+mapper type=4 current_bank=3 mirroring=3 select=$07 irq_latch=$7F irq_counter=$00 irq_reload=1 irq_enabled=1
+mapper_regs 3C 3E 00 00 00 00 06 07
+caller func_CEAC
+caller2 func_CDE7
+target_bytes 00 00 00 00 00 00 00 00
+stack_bytes 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+last_dispatches
+  T $CECE cb=-1 S=$FB depth=9 wb=$C000
+  C $CECE cb=-1 S=$FB depth=9 wb=$C000
+  D $CDE7 cb=-1 S=$FB depth=8 wb=$C000
+  C $CDE7 cb=-1 S=$FB depth=8 wb=$C000
+  T $CEAC cb=-1 S=$FB depth=9 wb=$C000
+  C $CEAC cb=-1 S=$FB depth=9 wb=$C000
+  D $CDE7 cb=-1 S=$FB depth=8 wb=$C000
+  C $CDE7 cb=-1 S=$FB depth=8 wb=$C000
+  T $CEAC cb=-1 S=$FB depth=9 wb=$C000
+  C $CEAC cb=-1 S=$FB depth=9 wb=$C000
+  C $CD5F cb=-1 S=$FB depth=10 wb=$C000
+  T $0001 cb=-1 S=$FD depth=10 wb=$C000
+  C $0001 cb=-1 S=$FD depth=10 wb=$C000
+  I $0001 cb=-1 S=$FD depth=11 wb=$C000
+  C $CD7D cb=-1 S=$FD depth=7 wb=$C000
+  T $CDE7 cb=-1 S=$FD depth=8 wb=$C000
+  C $CDE7 cb=-1 S=$FD depth=8 wb=$C000
+  T $CED7 cb=-1 S=$FD depth=9 wb=$C000
+  C $CED7 cb=-1 S=$FD depth=9 wb=$C000
+  D $CDE7 cb=-1 S=$FD depth=8 wb=$C000
+  C $CDE7 cb=-1 S=$FD depth=8 wb=$C000
+  T $CE4C cb=-1 S=$FD depth=9 wb=$C000
+  C $CE4C cb=-1 S=$FD depth=9 wb=$C000
+  T $CD93 cb=-1 S=$FD depth=10 wb=$C000
+  C $CD93 cb=-1 S=$FD depth=10 wb=$C000
+  D $CDE7 cb=-1 S=$FD depth=8 wb=$C000
+  C $CDE7 cb=-1 S=$FD depth=8 wb=$C000
+  T $CE4C cb=-1 S=$FD depth=9 wb=$C000
+  C $CE4C cb=-1 S=$FD depth=9 wb=$C000
+  T $CD93 cb=-1 S=$FD depth=10 wb=$C000
+  C $CD93 cb=-1 S=$FD depth=10 wb=$C000
+  D $CDE7 cb=-1 S=$FD depth=8 wb=$C000
+  C $CDE7 cb=-1 S=$FD depth=8 wb=$C000
+  T $CE4C cb=-1 S=$FD depth=9 wb=$C000
+  C $CE4C cb=-1 S=$FD depth=9 wb=$C000
+  T $CD93 cb=-1 S=$FD depth=10 wb=$C000
+  C $CD93 cb=-1 S=$FD depth=10 wb=$C000
+  D $CDE7 cb=-1 S=$FD depth=8 wb=$C000
+  C $CDE7 cb=-1 S=$FD depth=8 wb=$C000
+  T $CE78 cb=-1 S=$FD depth=9 wb=$C000
+  C $CE78 cb=-1 S=$FD depth=9 wb=$C000
+  D $CDE7 cb=-1 S=$FD depth=8 wb=$C000
+  C $CDE7 cb=-1 S=$FD depth=8 wb=$C000
+  T $CE78 cb=-1 S=$FD depth=9 wb=$C000
+  C $CE78 cb=-1 S=$FD depth=9 wb=$C000
+  D $CDE7 cb=-1 S=$FD depth=8 wb=$C000
+  C $CDE7 cb=-1 S=$FD depth=8 wb=$C000
+  T $CECE cb=-1 S=$FD depth=9 wb=$C000
+  C $CECE cb=-1 S=$FD depth=9 wb=$C000
+  D $CDE7 cb=-1 S=$FD depth=8 wb=$C000
+  C $CDE7 cb=-1 S=$FD depth=8 wb=$C000
+  T $CE9C cb=-1 S=$FD depth=9 wb=$C000
+  C $CE9C cb=-1 S=$FD depth=9 wb=$C000
+  D $CDE7 cb=-1 S=$FD depth=8 wb=$C000
+  C $CDE7 cb=-1 S=$FD depth=8 wb=$C000
+  T $CEAC cb=-1 S=$FD depth=9 wb=$C000
+  C $CEAC cb=-1 S=$FD depth=9 wb=$C000
+  D $CDE7 cb=-1 S=$FD depth=8 wb=$C000
+  C $CDE7 cb=-1 S=$FD depth=8 wb=$C000
+  T $CEAC cb=-1 S=$FD depth=9 wb=$C000
+  C $CEAC cb=-1 S=$FD depth=9 wb=$C000
+  C $CD5F cb=-1 S=$FD depth=10 wb=$C000
+  T $2D04 cb=-1 S=$FF depth=10 wb=$C000
+  C $2D04 cb=-1 S=$FF depth=10 wb=$C000
+=== end dispatch fault ===
+
+=== dispatch fault 1 frame=0 cycles=124656 ===
+target gen=$A009 cpu=$8009 bank=6 class=CODE call_site=$0000
+cpu A=$0D X=$06 Y=$00 P=$00 S=$FF window=$8000 dispatch_depth=3 vblank_depth=0 ops=5534 budget=29781
+mapper type=4 current_bank=6 mirroring=2 select=$06 irq_latch=$00 irq_counter=$00 irq_reload=0 irq_enabled=0
+mapper_regs 00 00 00 00 00 00 0D 07
+caller (none)
+caller2 (none)
+target_bytes 4C 15 80 4C 50 80 4C F1
+stack_bytes 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+last_dispatches
+  T $D269 cb=-1 S=$FD depth=0 wb=$E000
+  C $D269 cb=-1 S=$FD depth=0 wb=$E000
+  C $D2F6 cb=-1 S=$FF depth=1 wb=$C000
+  C $CFBF cb=-1 S=$FF depth=1 wb=$C000
+  C $CFF3 cb=-1 S=$FF depth=2 wb=$C000
+  T $D406 cb=-1 S=$FF depth=1 wb=$C000
+  C $D406 cb=-1 S=$FF depth=1 wb=$C000
+  C $8009 cb=-1 S=$FF depth=2 wb=$C000
+=== end dispatch fault ===
+
+=== dispatch fault 2 frame=0 cycles=191343 ===
+target gen=$A003 cpu=$8003 bank=6 class=CODE call_site=$0000
+cpu A=$05 X=$10 Y=$00 P=$00 S=$FF window=$8000 dispatch_depth=4 vblank_depth=0 ops=12659 budget=29780
+mapper type=4 current_bank=6 mirroring=3 select=$07 irq_latch=$00 irq_counter=$00 irq_reload=0 irq_enabled=0
+mapper_regs 00 00 00 00 00 00 0D 05
+caller (none)
+caller2 (none)
+target_bytes 4C 85 86 4C 95 87 4C 15
+stack_bytes 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+last_dispatches
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $8003 cb=-1 S=$FF depth=3 wb=$C000
+=== end dispatch fault ===
+
+=== dispatch fault 1 frame=0 cycles=124656 ===
+target gen=$A009 cpu=$8009 bank=6 class=CODE call_site=$0000
+cpu A=$0D X=$06 Y=$00 P=$00 S=$FF window=$8000 dispatch_depth=3 vblank_depth=0 ops=5534 budget=29781
+mapper type=4 current_bank=6 mirroring=2 select=$06 irq_latch=$00 irq_counter=$00 irq_reload=0 irq_enabled=0
+mapper_regs 00 00 00 00 00 00 0D 07
+caller (none)
+caller2 (none)
+target_bytes 4C 15 80 4C 50 80 4C F1
+stack_bytes 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+last_dispatches
+  T $D269 cb=-1 S=$FD depth=0 wb=$E000
+  C $D269 cb=-1 S=$FD depth=0 wb=$E000
+  C $D2F6 cb=-1 S=$FF depth=1 wb=$C000
+  C $CFBF cb=-1 S=$FF depth=1 wb=$C000
+  C $CFF3 cb=-1 S=$FF depth=2 wb=$C000
+  T $D406 cb=-1 S=$FF depth=1 wb=$C000
+  C $D406 cb=-1 S=$FF depth=1 wb=$C000
+  C $8009 cb=-1 S=$FF depth=2 wb=$C000
+=== end dispatch fault ===
+
+=== dispatch fault 2 frame=0 cycles=191343 ===
+target gen=$A003 cpu=$8003 bank=6 class=CODE call_site=$0000
+cpu A=$05 X=$10 Y=$00 P=$00 S=$FF window=$8000 dispatch_depth=4 vblank_depth=0 ops=12659 budget=29780
+mapper type=4 current_bank=6 mirroring=3 select=$07 irq_latch=$00 irq_counter=$00 irq_reload=0 irq_enabled=0
+mapper_regs 00 00 00 00 00 00 0D 05
+caller (none)
+caller2 (none)
+target_bytes 4C 85 86 4C 95 87 4C 15
+stack_bytes 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+last_dispatches
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $8003 cb=-1 S=$FF depth=3 wb=$C000
+=== end dispatch fault ===
+
+=== dispatch fault 3 frame=37 cycles=1284326 ===
+target gen=$D7C4 cpu=$D7C4 bank=7 class=CODE call_site=$023C
+cpu A=$D7 X=$07 Y=$01 P=$00 S=$FD window=$C000 dispatch_depth=5 vblank_depth=0 ops=3763 budget=29780
+mapper type=4 current_bank=5 mirroring=3 select=$07 irq_latch=$00 irq_counter=$00 irq_reload=0 irq_enabled=0
+mapper_regs 6A 6A 01 05 00 00 0A 0B
+caller func_EDF6
+caller2 (none)
+target_bytes 20 09 80 20 00 80 20 03
+stack_bytes 3C 02 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+last_dispatches
+  T $CC66 cb=-1 S=$F8 depth=5 wb=$C000
+  C $CC66 cb=-1 S=$F8 depth=5 wb=$C000
+  n $0002 cb=-1 S=$FE depth=3 wb=$E000
+  T $D9F0 cb=-1 S=$FE depth=3 wb=$E000
+  C $D9F0 cb=-1 S=$FE depth=3 wb=$E000
+  N $0002 cb=-1 S=$FB depth=3 wb=$E000
+  C $DE39 cb=-1 S=$F8 depth=3 wb=$C000
+  T $E11E cb=-1 S=$F8 depth=4 wb=$C000
+  C $E11E cb=-1 S=$F8 depth=4 wb=$C000
+  T $E11E cb=-1 S=$F8 depth=3 wb=$E000
+  C $E11E cb=-1 S=$F8 depth=3 wb=$E000
+  C $DCCE cb=-1 S=$F8 depth=3 wb=$C000
+  C $CB25 cb=-1 S=$F8 depth=3 wb=$C000
+  C $CD30 cb=-1 S=$F8 depth=4 wb=$C000
+  C $CD30 cb=-1 S=$F8 depth=4 wb=$C000
+  C $CC71 cb=-1 S=$F8 depth=4 wb=$C000
+  T $CC66 cb=-1 S=$F8 depth=5 wb=$C000
+  C $CC66 cb=-1 S=$F8 depth=5 wb=$C000
+  C $CCDA cb=-1 S=$F8 depth=4 wb=$C000
+  C $CC71 cb=-1 S=$F8 depth=4 wb=$C000
+  T $CC66 cb=-1 S=$F8 depth=5 wb=$C000
+  C $CC66 cb=-1 S=$F8 depth=5 wb=$C000
+  C $CCDA cb=-1 S=$F8 depth=4 wb=$C000
+  C $CC71 cb=-1 S=$F8 depth=4 wb=$C000
+  T $CC66 cb=-1 S=$F8 depth=5 wb=$C000
+  C $CC66 cb=-1 S=$F8 depth=5 wb=$C000
+  C $CCDA cb=-1 S=$F8 depth=4 wb=$C000
+  C $CC71 cb=-1 S=$F8 depth=4 wb=$C000
+  T $CC66 cb=-1 S=$F8 depth=5 wb=$C000
+  C $CC66 cb=-1 S=$F8 depth=5 wb=$C000
+  n $0002 cb=-1 S=$FE depth=3 wb=$E000
+  T $D9F0 cb=-1 S=$FE depth=3 wb=$E000
+  C $D9F0 cb=-1 S=$FE depth=3 wb=$E000
+  N $0002 cb=-1 S=$FA depth=3 wb=$E000
+  C $DE39 cb=-1 S=$F7 depth=3 wb=$C000
+  T $E11E cb=-1 S=$F7 depth=4 wb=$C000
+  C $E11E cb=-1 S=$F7 depth=4 wb=$C000
+  T $E11E cb=-1 S=$F7 depth=3 wb=$E000
+  C $E11E cb=-1 S=$F7 depth=3 wb=$E000
+  C $DCCE cb=-1 S=$F7 depth=3 wb=$C000
+  C $CB25 cb=-1 S=$F7 depth=3 wb=$C000
+  C $CD30 cb=-1 S=$F7 depth=4 wb=$C000
+  C $CD30 cb=-1 S=$F7 depth=4 wb=$C000
+  C $CC71 cb=-1 S=$F7 depth=4 wb=$C000
+  T $CC66 cb=-1 S=$F7 depth=5 wb=$C000
+  C $CC66 cb=-1 S=$F7 depth=5 wb=$C000
+  C $CCDA cb=-1 S=$F7 depth=4 wb=$C000
+  C $CC71 cb=-1 S=$F7 depth=4 wb=$C000
+  T $CC66 cb=-1 S=$F7 depth=5 wb=$C000
+  C $CC66 cb=-1 S=$F7 depth=5 wb=$C000
+  C $CCDA cb=-1 S=$F7 depth=4 wb=$C000
+  C $CC71 cb=-1 S=$F7 depth=4 wb=$C000
+  T $CC66 cb=-1 S=$F7 depth=5 wb=$C000
+  C $CC66 cb=-1 S=$F7 depth=5 wb=$C000
+  C $CCDA cb=-1 S=$F7 depth=4 wb=$C000
+  C $CC71 cb=-1 S=$F7 depth=4 wb=$C000
+  T $CC66 cb=-1 S=$F7 depth=5 wb=$C000
+  C $CC66 cb=-1 S=$F7 depth=5 wb=$C000
+  n $0002 cb=-1 S=$FD depth=3 wb=$E000
+  T $D9F0 cb=-1 S=$FD depth=3 wb=$E000
+  C $D9F0 cb=-1 S=$FD depth=3 wb=$E000
+  C $D796 cb=-1 S=$FD depth=3 wb=$C000
+  T $D7C4 cb=-1 S=$FD depth=4 wb=$E000
+  C $D7C4 cb=-1 S=$FD depth=4 wb=$E000
+=== end dispatch fault ===
+
+=== dispatch fault 4 frame=40 cycles=1373670 ===
+target gen=$D7B8 cpu=$D7B8 bank=7 class=CODE call_site=$0239
+cpu A=$D7 X=$07 Y=$00 P=$00 S=$FD window=$C000 dispatch_depth=5 vblank_depth=0 ops=3766 budget=29781
+mapper type=4 current_bank=5 mirroring=3 select=$07 irq_latch=$00 irq_counter=$00 irq_reload=0 irq_enabled=0
+mapper_regs 6A 6A 01 05 00 00 0A 0B
+caller func_EDF6
+caller2 (none)
+target_bytes 20 00 80 20 09 80 20 03
+stack_bytes 39 02 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+last_dispatches
+  C $911A cb=5 S=$FD depth=7 wb=$8000
+  T $9B6E cb=5 S=$FD depth=8 wb=$8000
+  C $9B6E cb=5 S=$FD depth=8 wb=$8000
+  C $910A cb=5 S=$FD depth=7 wb=$8000
+  T $99E7 cb=-1 S=$FD depth=8 wb=$8000
+  C $99E7 cb=-1 S=$FD depth=8 wb=$8000
+  C $9A4C cb=5 S=$FD depth=9 wb=$8000
+  T $9A69 cb=5 S=$FD depth=9 wb=$8000
+  C $9A69 cb=5 S=$FD depth=9 wb=$8000
+  C $913C cb=5 S=$FD depth=7 wb=$8000
+  T $917D cb=5 S=$FD depth=8 wb=$8000
+  C $917D cb=5 S=$FD depth=8 wb=$8000
+  C $911A cb=5 S=$FD depth=7 wb=$8000
+  T $9B6E cb=5 S=$FD depth=8 wb=$8000
+  C $9B6E cb=5 S=$FD depth=8 wb=$8000
+  C $910A cb=5 S=$FD depth=7 wb=$8000
+  T $99E7 cb=-1 S=$FD depth=8 wb=$8000
+  C $99E7 cb=-1 S=$FD depth=8 wb=$8000
+  C $9A4C cb=5 S=$FD depth=9 wb=$8000
+  T $9A69 cb=5 S=$FD depth=9 wb=$8000
+  C $9A69 cb=5 S=$FD depth=9 wb=$8000
+  C $913C cb=5 S=$FD depth=7 wb=$8000
+  T $917D cb=5 S=$FD depth=8 wb=$8000
+  C $917D cb=5 S=$FD depth=8 wb=$8000
+  C $911A cb=5 S=$FD depth=7 wb=$8000
+  T $9B6E cb=5 S=$FD depth=8 wb=$8000
+  C $9B6E cb=5 S=$FD depth=8 wb=$8000
+  T $8003 cb=-1 S=$FD depth=5 wb=$C000
+  C $8003 cb=-1 S=$FD depth=5 wb=$C000
+  T $8F55 cb=5 S=$FD depth=6 wb=$8000
+  C $8F55 cb=5 S=$FD depth=6 wb=$8000
+  T $D377 cb=-1 S=$FD depth=4 wb=$C000
+  C $D377 cb=-1 S=$FD depth=4 wb=$C000
+  N $0002 cb=-1 S=$FA depth=3 wb=$E000
+  C $DE39 cb=-1 S=$F7 depth=3 wb=$C000
+  T $E11E cb=-1 S=$F7 depth=4 wb=$C000
+  C $E11E cb=-1 S=$F7 depth=4 wb=$C000
+  T $E11E cb=-1 S=$F7 depth=3 wb=$E000
+  C $E11E cb=-1 S=$F7 depth=3 wb=$E000
+  C $DCCE cb=-1 S=$F7 depth=3 wb=$C000
+  C $CB25 cb=-1 S=$F7 depth=3 wb=$C000
+  C $CD30 cb=-1 S=$F7 depth=4 wb=$C000
+  C $CD30 cb=-1 S=$F7 depth=4 wb=$C000
+  C $CC71 cb=-1 S=$F7 depth=4 wb=$C000
+  T $CC66 cb=-1 S=$F7 depth=5 wb=$C000
+  C $CC66 cb=-1 S=$F7 depth=5 wb=$C000
+  C $CCDA cb=-1 S=$F7 depth=4 wb=$C000
+  C $CC71 cb=-1 S=$F7 depth=4 wb=$C000
+  T $CC66 cb=-1 S=$F7 depth=5 wb=$C000
+  C $CC66 cb=-1 S=$F7 depth=5 wb=$C000
+  C $CCDA cb=-1 S=$F7 depth=4 wb=$C000
+  C $CC71 cb=-1 S=$F7 depth=4 wb=$C000
+  T $CC66 cb=-1 S=$F7 depth=5 wb=$C000
+  C $CC66 cb=-1 S=$F7 depth=5 wb=$C000
+  C $CCDA cb=-1 S=$F7 depth=4 wb=$C000
+  C $CC71 cb=-1 S=$F7 depth=4 wb=$C000
+  T $CC66 cb=-1 S=$F7 depth=5 wb=$C000
+  C $CC66 cb=-1 S=$F7 depth=5 wb=$C000
+  n $0002 cb=-1 S=$FD depth=3 wb=$E000
+  T $D9F0 cb=-1 S=$FD depth=3 wb=$E000
+  C $D9F0 cb=-1 S=$FD depth=3 wb=$E000
+  C $D796 cb=-1 S=$FD depth=3 wb=$C000
+  T $D7B8 cb=-1 S=$FD depth=4 wb=$E000
+  C $D7B8 cb=-1 S=$FD depth=4 wb=$E000
+=== end dispatch fault ===
+
+=== dispatch fault 5 frame=221 cycles=6835927 ===
+target gen=$89DD cpu=$89DD bank=6 class=CODE call_site=$0000
+cpu A=$89 X=$03 Y=$01 P=$00 S=$FF window=$8000 dispatch_depth=7 vblank_depth=0 ops=16191 budget=29780
+mapper type=4 current_bank=6 mirroring=3 select=$06 irq_latch=$00 irq_counter=$00 irq_reload=0 irq_enabled=0
+mapper_regs 6A 6A 01 05 00 00 0C 05
+caller func_EDF6
+caller2 func_89BF_b6
+target_bytes 86 33 8A 0A 65 33 A8 A9
+stack_bytes 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+last_dispatches
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $DB92 cb=-1 S=$FF depth=3 wb=$C000
+  C $D341 cb=-1 S=$FF depth=4 wb=$C000
+  T $D377 cb=-1 S=$FF depth=4 wb=$C000
+  C $D377 cb=-1 S=$FF depth=4 wb=$C000
+  C $DC27 cb=-1 S=$FF depth=3 wb=$C000
+  C $DBAF cb=-1 S=$FF depth=3 wb=$C000
+  C $8021 cb=-1 S=$FF depth=4 wb=$C000
+  T $89BF cb=6 S=$FF depth=5 wb=$8000
+  C $89BF cb=6 S=$FF depth=5 wb=$8000
+  T $89DD cb=-1 S=$FF depth=6 wb=$E000
+  C $89DD cb=-1 S=$FF depth=6 wb=$E000
+=== end dispatch fault ===
+
+=== dispatch fault 6 frame=221 cycles=6851976 ===
+target gen=$FF01 cpu=$FF01 bank=7 class=ZERO_FILLED call_site=$6041
+cpu A=$00 X=$03 Y=$04 P=$00 S=$FB window=$E000 dispatch_depth=9 vblank_depth=2 ops=2460 budget=29781
+mapper type=4 current_bank=3 mirroring=3 select=$07 irq_latch=$7F irq_counter=$00 irq_reload=1 irq_enabled=1
+mapper_regs 3C 3E 00 00 00 00 06 07
+caller func_CEAC
+caller2 func_CDE7
+target_bytes 00 00 00 00 00 00 00 00
+stack_bytes 41 60 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+last_dispatches
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $DB92 cb=-1 S=$FF depth=3 wb=$C000
+  C $D341 cb=-1 S=$FF depth=4 wb=$C000
+  T $D377 cb=-1 S=$FF depth=4 wb=$C000
+  C $D377 cb=-1 S=$FF depth=4 wb=$C000
+  C $DC27 cb=-1 S=$FF depth=3 wb=$C000
+  C $DBAF cb=-1 S=$FF depth=3 wb=$C000
+  C $8021 cb=-1 S=$FF depth=4 wb=$C000
+  T $89BF cb=6 S=$FF depth=5 wb=$8000
+  C $89BF cb=6 S=$FF depth=5 wb=$8000
+  T $89DD cb=-1 S=$FF depth=6 wb=$E000
+  C $89DD cb=-1 S=$FF depth=6 wb=$E000
+  T $89DD cb=-1 S=$FF depth=6 wb=$E000
+  C $89DD cb=-1 S=$FF depth=6 wb=$E000
+  T $89DD cb=-1 S=$FF depth=6 wb=$E000
+  C $89DD cb=-1 S=$FF depth=6 wb=$E000
+  T $89DD cb=-1 S=$FF depth=6 wb=$E000
+  C $89DD cb=-1 S=$FF depth=6 wb=$E000
+  N $0002 cb=-1 S=$FC depth=3 wb=$E000
+  C $DE39 cb=-1 S=$F9 depth=3 wb=$C000
+  T $E11E cb=-1 S=$F9 depth=4 wb=$C000
+  C $E11E cb=-1 S=$F9 depth=4 wb=$C000
+  T $E11E cb=-1 S=$F9 depth=3 wb=$E000
+  C $E11E cb=-1 S=$F9 depth=3 wb=$E000
+  C $DCCE cb=-1 S=$F9 depth=3 wb=$C000
+  C $CB25 cb=-1 S=$F9 depth=3 wb=$C000
+  C $CF72 cb=-1 S=$F9 depth=4 wb=$C000
+  C $CFF3 cb=-1 S=$F9 depth=4 wb=$C000
+  C $CD30 cb=-1 S=$F9 depth=4 wb=$C000
+  C $CD7D cb=-1 S=$F9 depth=5 wb=$C000
+  T $CDE7 cb=-1 S=$F9 depth=6 wb=$C000
+  C $CDE7 cb=-1 S=$F9 depth=6 wb=$C000
+  T $CEAC cb=-1 S=$F9 depth=7 wb=$C000
+  C $CEAC cb=-1 S=$F9 depth=7 wb=$C000
+  D $CDE7 cb=-1 S=$F9 depth=6 wb=$C000
+  C $CDE7 cb=-1 S=$F9 depth=6 wb=$C000
+  T $CEF0 cb=-1 S=$F9 depth=7 wb=$C000
+  C $CEF0 cb=-1 S=$F9 depth=7 wb=$C000
+  C $CD5F cb=-1 S=$F9 depth=8 wb=$C000
+  C $CD7D cb=-1 S=$F9 depth=5 wb=$C000
+  T $CDE7 cb=-1 S=$F9 depth=6 wb=$C000
+  C $CDE7 cb=-1 S=$F9 depth=6 wb=$C000
+  T $CE4C cb=-1 S=$F9 depth=7 wb=$C000
+  C $CE4C cb=-1 S=$F9 depth=7 wb=$C000
+  T $CD93 cb=-1 S=$F9 depth=8 wb=$C000
+  C $CD93 cb=-1 S=$F9 depth=8 wb=$C000
+  D $CDE7 cb=-1 S=$F9 depth=6 wb=$C000
+  C $CDE7 cb=-1 S=$F9 depth=6 wb=$C000
+  T $CEF0 cb=-1 S=$F9 depth=7 wb=$C000
+  C $CEF0 cb=-1 S=$F9 depth=7 wb=$C000
+  D $CDE7 cb=-1 S=$F9 depth=6 wb=$C000
+  C $CDE7 cb=-1 S=$F9 depth=6 wb=$C000
+  T $CEAC cb=-1 S=$F9 depth=7 wb=$C000
+  C $CEAC cb=-1 S=$F9 depth=7 wb=$C000
+  C $CD5F cb=-1 S=$F9 depth=8 wb=$C000
+  T $FF01 cb=-1 S=$FB depth=8 wb=$C000
+  C $FF01 cb=-1 S=$FB depth=8 wb=$C000
+=== end dispatch fault ===
+
+=== dispatch fault 7 frame=221 cycles=13593394 ===
+target gen=$E9AE cpu=$E9AE bank=7 class=CODE call_site=$FF00
+cpu A=$00 X=$FF Y=$00 P=$00 S=$F9 window=$E000 dispatch_depth=4 vblank_depth=1 ops=43265 budget=29780
+mapper type=4 current_bank=6 mirroring=3 select=$07 irq_latch=$1C irq_counter=$00 irq_reload=0 irq_enabled=1
+mapper_regs 3C 3E 00 00 00 00 0C 05
+caller func_E603
+caller2 func_CDE7
+target_bytes A9 00 8D 00 E0 A2 07 CA
+stack_bytes 00 FF 41 60 00 00 00 00 00 00 00 00 00 00 00 00
+last_dispatches
+  C $CD7D cb=-1 S=$04 depth=5 wb=$C000
+  T $CDE7 cb=-1 S=$04 depth=6 wb=$C000
+  C $CDE7 cb=-1 S=$04 depth=6 wb=$C000
+  T $CED7 cb=-1 S=$04 depth=7 wb=$C000
+  C $CED7 cb=-1 S=$04 depth=7 wb=$C000
+  D $CDE7 cb=-1 S=$04 depth=6 wb=$C000
+  C $CDE7 cb=-1 S=$04 depth=6 wb=$C000
+  T $CE4C cb=-1 S=$04 depth=7 wb=$C000
+  C $CE4C cb=-1 S=$04 depth=7 wb=$C000
+  T $CD93 cb=-1 S=$04 depth=8 wb=$C000
+  C $CD93 cb=-1 S=$04 depth=8 wb=$C000
+  D $CDE7 cb=-1 S=$04 depth=6 wb=$C000
+  C $CDE7 cb=-1 S=$04 depth=6 wb=$C000
+  T $CE4C cb=-1 S=$04 depth=7 wb=$C000
+  C $CE4C cb=-1 S=$04 depth=7 wb=$C000
+  T $CD93 cb=-1 S=$04 depth=8 wb=$C000
+  C $CD93 cb=-1 S=$04 depth=8 wb=$C000
+  D $CDE7 cb=-1 S=$04 depth=6 wb=$C000
+  C $CDE7 cb=-1 S=$04 depth=6 wb=$C000
+  T $CE4C cb=-1 S=$04 depth=7 wb=$C000
+  C $CE4C cb=-1 S=$04 depth=7 wb=$C000
+  T $CD93 cb=-1 S=$04 depth=8 wb=$C000
+  C $CD93 cb=-1 S=$04 depth=8 wb=$C000
+  D $CDE7 cb=-1 S=$04 depth=6 wb=$C000
+  C $CDE7 cb=-1 S=$04 depth=6 wb=$C000
+  T $CE78 cb=-1 S=$04 depth=7 wb=$C000
+  C $CE78 cb=-1 S=$04 depth=7 wb=$C000
+  D $CDE7 cb=-1 S=$04 depth=6 wb=$C000
+  C $CDE7 cb=-1 S=$04 depth=6 wb=$C000
+  T $CE78 cb=-1 S=$04 depth=7 wb=$C000
+  C $CE78 cb=-1 S=$04 depth=7 wb=$C000
+  D $CDE7 cb=-1 S=$04 depth=6 wb=$C000
+  C $CDE7 cb=-1 S=$04 depth=6 wb=$C000
+  T $CECE cb=-1 S=$04 depth=7 wb=$C000
+  C $CECE cb=-1 S=$04 depth=7 wb=$C000
+  D $CDE7 cb=-1 S=$04 depth=6 wb=$C000
+  C $CDE7 cb=-1 S=$04 depth=6 wb=$C000
+  T $CE9C cb=-1 S=$04 depth=7 wb=$C000
+  C $CE9C cb=-1 S=$04 depth=7 wb=$C000
+  D $CDE7 cb=-1 S=$04 depth=6 wb=$C000
+  C $CDE7 cb=-1 S=$04 depth=6 wb=$C000
+  T $CEAC cb=-1 S=$04 depth=7 wb=$C000
+  C $CEAC cb=-1 S=$04 depth=7 wb=$C000
+  D $CDE7 cb=-1 S=$04 depth=6 wb=$C000
+  C $CDE7 cb=-1 S=$04 depth=6 wb=$C000
+  T $CEAC cb=-1 S=$04 depth=7 wb=$C000
+  C $CEAC cb=-1 S=$04 depth=7 wb=$C000
+  C $CD5F cb=-1 S=$04 depth=8 wb=$C000
+  T $0001 cb=-1 S=$06 depth=8 wb=$C000
+  C $0001 cb=-1 S=$06 depth=8 wb=$C000
+  I $0001 cb=-1 S=$06 depth=9 wb=$C000
+  C $CD30 cb=-1 S=$06 depth=4 wb=$C000
+  C $CC71 cb=-1 S=$06 depth=4 wb=$C000
+  C $CCDA cb=-1 S=$06 depth=4 wb=$C000
+  C $CC71 cb=-1 S=$06 depth=4 wb=$C000
+  C $CCDA cb=-1 S=$06 depth=4 wb=$C000
+  C $CC71 cb=-1 S=$06 depth=4 wb=$C000
+  C $CCDA cb=-1 S=$06 depth=4 wb=$C000
+  C $CC71 cb=-1 S=$06 depth=4 wb=$C000
+  T $CC61 cb=-1 S=$06 depth=5 wb=$C000
+  C $CC61 cb=-1 S=$06 depth=5 wb=$C000
+  n $0002 cb=-1 S=$0C depth=3 wb=$E000
+  T $E9AE cb=-1 S=$F9 depth=3 wb=$E000
+  C $E9AE cb=-1 S=$F9 depth=3 wb=$E000
+=== end dispatch fault ===
+
+=== dispatch fault 8 frame=223 cycles=20342893 ===
+target gen=$A013 cpu=$A013 bank=3 class=CODE call_site=$0000
+cpu A=$00 X=$02 Y=$04 P=$00 S=$FB window=$A000 dispatch_depth=11 vblank_depth=2 ops=2810 budget=29780
+mapper type=4 current_bank=3 mirroring=3 select=$07 irq_latch=$7F irq_counter=$00 irq_reload=1 irq_enabled=1
+mapper_regs 3C 3E 00 00 00 00 06 07
+caller func_CE78
+caller2 func_CDE7
+target_bytes 9C A0 F5 12 A0 F8 02 F4
+stack_bytes 00 00 03 2D 00 00 00 00 00 00 00 00 00 00 00 00
+last_dispatches
+  C $D9F0 cb=-1 S=$FF depth=3 wb=$E000
+  C $DBAF cb=-1 S=$FF depth=3 wb=$C000
+  C $8021 cb=-1 S=$FF depth=4 wb=$C000
+  T $89BF cb=6 S=$FF depth=5 wb=$8000
+  C $89BF cb=6 S=$FF depth=5 wb=$8000
+  T $89DD cb=-1 S=$FF depth=6 wb=$E000
+  C $89DD cb=-1 S=$FF depth=6 wb=$E000
+  T $89DD cb=-1 S=$FF depth=6 wb=$E000
+  C $89DD cb=-1 S=$FF depth=6 wb=$E000
+  T $89DD cb=-1 S=$FF depth=6 wb=$E000
+  C $89DD cb=-1 S=$FF depth=6 wb=$E000
+  T $89DD cb=-1 S=$FF depth=6 wb=$E000
+  C $89DD cb=-1 S=$FF depth=6 wb=$E000
+  C $DB65 cb=-1 S=$FF depth=3 wb=$C000
+  C $DB92 cb=-1 S=$FF depth=3 wb=$C000
+  C $D341 cb=-1 S=$FF depth=4 wb=$C000
+  N $0002 cb=-1 S=$FA depth=5 wb=$C000
+  C $DE39 cb=-1 S=$F7 depth=5 wb=$C000
+  T $E11E cb=-1 S=$F7 depth=6 wb=$C000
+  C $E11E cb=-1 S=$F7 depth=6 wb=$C000
+  T $E11E cb=-1 S=$F7 depth=5 wb=$E000
+  C $E11E cb=-1 S=$F7 depth=5 wb=$E000
+  C $DCCE cb=-1 S=$F7 depth=5 wb=$C000
+  C $CB25 cb=-1 S=$F7 depth=5 wb=$C000
+  C $CF72 cb=-1 S=$F7 depth=6 wb=$C000
+  C $CFF3 cb=-1 S=$F7 depth=6 wb=$C000
+  C $CD30 cb=-1 S=$F7 depth=6 wb=$C000
+  C $CD7D cb=-1 S=$F7 depth=7 wb=$C000
+  T $CDE7 cb=-1 S=$F7 depth=8 wb=$C000
+  C $CDE7 cb=-1 S=$F7 depth=8 wb=$C000
+  T $CEAC cb=-1 S=$F7 depth=9 wb=$C000
+  C $CEAC cb=-1 S=$F7 depth=9 wb=$C000
+  D $CDE7 cb=-1 S=$F7 depth=8 wb=$C000
+  C $CDE7 cb=-1 S=$F7 depth=8 wb=$C000
+  T $CEF0 cb=-1 S=$F7 depth=9 wb=$C000
+  C $CEF0 cb=-1 S=$F7 depth=9 wb=$C000
+  C $CD5F cb=-1 S=$F7 depth=10 wb=$C000
+  C $CD7D cb=-1 S=$F7 depth=7 wb=$C000
+  T $CDE7 cb=-1 S=$F7 depth=8 wb=$C000
+  C $CDE7 cb=-1 S=$F7 depth=8 wb=$C000
+  T $CE4C cb=-1 S=$F7 depth=9 wb=$C000
+  C $CE4C cb=-1 S=$F7 depth=9 wb=$C000
+  T $CD93 cb=-1 S=$F7 depth=10 wb=$C000
+  C $CD93 cb=-1 S=$F7 depth=10 wb=$C000
+  D $CDE7 cb=-1 S=$F7 depth=8 wb=$C000
+  C $CDE7 cb=-1 S=$F7 depth=8 wb=$C000
+  T $CEF0 cb=-1 S=$F7 depth=9 wb=$C000
+  C $CEF0 cb=-1 S=$F7 depth=9 wb=$C000
+  D $CDE7 cb=-1 S=$F7 depth=8 wb=$C000
+  C $CDE7 cb=-1 S=$F7 depth=8 wb=$C000
+  T $CEAC cb=-1 S=$F7 depth=9 wb=$C000
+  C $CEAC cb=-1 S=$F7 depth=9 wb=$C000
+  C $CD5F cb=-1 S=$F7 depth=10 wb=$C000
+  T $0301 cb=-1 S=$F9 depth=10 wb=$C000
+  C $0301 cb=-1 S=$F9 depth=10 wb=$C000
+  I $0301 cb=-1 S=$F9 depth=11 wb=$C000
+  C $CD7D cb=-1 S=$F9 depth=7 wb=$C000
+  T $CDE7 cb=-1 S=$F9 depth=8 wb=$C000
+  C $CDE7 cb=-1 S=$F9 depth=8 wb=$C000
+  T $CE78 cb=-1 S=$F9 depth=9 wb=$C000
+  C $CE78 cb=-1 S=$F9 depth=9 wb=$C000
+  C $CD5F cb=-1 S=$F9 depth=10 wb=$C000
+  T $A013 cb=-1 S=$FB depth=10 wb=$C000
+  C $A013 cb=-1 S=$FB depth=10 wb=$C000
+=== end dispatch fault ===
+
+=== dispatch fault 9 frame=223 cycles=20344918 ===
+target gen=$2D04 cpu=$2D04 bank=3 class=ZERO_FILLED call_site=$0000
+cpu A=$00 X=$00 Y=$15 P=$00 S=$FF window=$C000 dispatch_depth=11 vblank_depth=2 ops=4835 budget=29780
+mapper type=4 current_bank=3 mirroring=3 select=$07 irq_latch=$7F irq_counter=$00 irq_reload=1 irq_enabled=1
+mapper_regs 3C 3E 00 00 00 00 06 07
+caller func_CEAC
+caller2 func_CDE7
+target_bytes 00 00 00 00 00 00 00 00
+stack_bytes 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+last_dispatches
+  T $CECE cb=-1 S=$FB depth=9 wb=$C000
+  C $CECE cb=-1 S=$FB depth=9 wb=$C000
+  D $CDE7 cb=-1 S=$FB depth=8 wb=$C000
+  C $CDE7 cb=-1 S=$FB depth=8 wb=$C000
+  T $CEAC cb=-1 S=$FB depth=9 wb=$C000
+  C $CEAC cb=-1 S=$FB depth=9 wb=$C000
+  D $CDE7 cb=-1 S=$FB depth=8 wb=$C000
+  C $CDE7 cb=-1 S=$FB depth=8 wb=$C000
+  T $CEAC cb=-1 S=$FB depth=9 wb=$C000
+  C $CEAC cb=-1 S=$FB depth=9 wb=$C000
+  C $CD5F cb=-1 S=$FB depth=10 wb=$C000
+  T $0001 cb=-1 S=$FD depth=10 wb=$C000
+  C $0001 cb=-1 S=$FD depth=10 wb=$C000
+  I $0001 cb=-1 S=$FD depth=11 wb=$C000
+  C $CD7D cb=-1 S=$FD depth=7 wb=$C000
+  T $CDE7 cb=-1 S=$FD depth=8 wb=$C000
+  C $CDE7 cb=-1 S=$FD depth=8 wb=$C000
+  T $CED7 cb=-1 S=$FD depth=9 wb=$C000
+  C $CED7 cb=-1 S=$FD depth=9 wb=$C000
+  D $CDE7 cb=-1 S=$FD depth=8 wb=$C000
+  C $CDE7 cb=-1 S=$FD depth=8 wb=$C000
+  T $CE4C cb=-1 S=$FD depth=9 wb=$C000
+  C $CE4C cb=-1 S=$FD depth=9 wb=$C000
+  T $CD93 cb=-1 S=$FD depth=10 wb=$C000
+  C $CD93 cb=-1 S=$FD depth=10 wb=$C000
+  D $CDE7 cb=-1 S=$FD depth=8 wb=$C000
+  C $CDE7 cb=-1 S=$FD depth=8 wb=$C000
+  T $CE4C cb=-1 S=$FD depth=9 wb=$C000
+  C $CE4C cb=-1 S=$FD depth=9 wb=$C000
+  T $CD93 cb=-1 S=$FD depth=10 wb=$C000
+  C $CD93 cb=-1 S=$FD depth=10 wb=$C000
+  D $CDE7 cb=-1 S=$FD depth=8 wb=$C000
+  C $CDE7 cb=-1 S=$FD depth=8 wb=$C000
+  T $CE4C cb=-1 S=$FD depth=9 wb=$C000
+  C $CE4C cb=-1 S=$FD depth=9 wb=$C000
+  T $CD93 cb=-1 S=$FD depth=10 wb=$C000
+  C $CD93 cb=-1 S=$FD depth=10 wb=$C000
+  D $CDE7 cb=-1 S=$FD depth=8 wb=$C000
+  C $CDE7 cb=-1 S=$FD depth=8 wb=$C000
+  T $CE78 cb=-1 S=$FD depth=9 wb=$C000
+  C $CE78 cb=-1 S=$FD depth=9 wb=$C000
+  D $CDE7 cb=-1 S=$FD depth=8 wb=$C000
+  C $CDE7 cb=-1 S=$FD depth=8 wb=$C000
+  T $CE78 cb=-1 S=$FD depth=9 wb=$C000
+  C $CE78 cb=-1 S=$FD depth=9 wb=$C000
+  D $CDE7 cb=-1 S=$FD depth=8 wb=$C000
+  C $CDE7 cb=-1 S=$FD depth=8 wb=$C000
+  T $CECE cb=-1 S=$FD depth=9 wb=$C000
+  C $CECE cb=-1 S=$FD depth=9 wb=$C000
+  D $CDE7 cb=-1 S=$FD depth=8 wb=$C000
+  C $CDE7 cb=-1 S=$FD depth=8 wb=$C000
+  T $CE9C cb=-1 S=$FD depth=9 wb=$C000
+  C $CE9C cb=-1 S=$FD depth=9 wb=$C000
+  D $CDE7 cb=-1 S=$FD depth=8 wb=$C000
+  C $CDE7 cb=-1 S=$FD depth=8 wb=$C000
+  T $CEAC cb=-1 S=$FD depth=9 wb=$C000
+  C $CEAC cb=-1 S=$FD depth=9 wb=$C000
+  D $CDE7 cb=-1 S=$FD depth=8 wb=$C000
+  C $CDE7 cb=-1 S=$FD depth=8 wb=$C000
+  T $CEAC cb=-1 S=$FD depth=9 wb=$C000
+  C $CEAC cb=-1 S=$FD depth=9 wb=$C000
+  C $CD5F cb=-1 S=$FD depth=10 wb=$C000
+  T $2D04 cb=-1 S=$FF depth=10 wb=$C000
+  C $2D04 cb=-1 S=$FF depth=10 wb=$C000
+=== end dispatch fault ===
+
+=== dispatch fault 10 frame=1909 cycles=77286862 ===
+target gen=$8A35 cpu=$8A35 bank=6 class=CODE call_site=$140D
+cpu A=$8A X=$02 Y=$03 P=$00 S=$FF window=$8000 dispatch_depth=10 vblank_depth=0 ops=6460 budget=29781
+mapper type=4 current_bank=6 mirroring=2 select=$06 irq_latch=$17 irq_counter=$0F irq_reload=0 irq_enabled=0
+mapper_regs 02 02 00 00 2B 05 0C 0B
+caller func_EDF6
+caller2 func_EDF6
+target_bytes BD AD 03 10 18 20 0C 8A
+stack_bytes 0D 14 1D 25 2C 32 35 39 39 3F 43 47 4B 4F 43 47
+last_dispatches
+  C $8009 cb=-1 S=$FF depth=6 wb=$C000
+  T $816C cb=6 S=$FF depth=7 wb=$8000
+  C $816C cb=6 S=$FF depth=7 wb=$8000
+  C $8707 cb=6 S=$FF depth=8 wb=$8000
+  C $84CE cb=6 S=$FF depth=8 wb=$8000
+  C $8561 cb=6 S=$FF depth=8 wb=$8000
+  T $8000 cb=-1 S=$FF depth=6 wb=$C000
+  C $8000 cb=-1 S=$FF depth=6 wb=$C000
+  T $8023 cb=4 S=$FF depth=7 wb=$8000
+  C $8023 cb=4 S=$FF depth=7 wb=$8000
+  N $0002 cb=-1 S=$FC depth=5 wb=$E000
+  C $DE39 cb=-1 S=$F9 depth=5 wb=$C000
+  T $E11E cb=-1 S=$F9 depth=6 wb=$C000
+  C $E11E cb=-1 S=$F9 depth=6 wb=$C000
+  C $DCCE cb=-1 S=$F9 depth=5 wb=$C000
+  C $CB25 cb=-1 S=$F9 depth=5 wb=$C000
+  C $CD30 cb=-1 S=$F9 depth=6 wb=$C000
+  C $CD30 cb=-1 S=$F9 depth=6 wb=$C000
+  C $CC71 cb=-1 S=$F9 depth=6 wb=$C000
+  T $CC61 cb=-1 S=$F9 depth=7 wb=$C000
+  C $CC61 cb=-1 S=$F9 depth=7 wb=$C000
+  C $CCDA cb=-1 S=$F9 depth=6 wb=$C000
+  C $CC71 cb=-1 S=$F9 depth=6 wb=$C000
+  T $CC61 cb=-1 S=$F9 depth=7 wb=$C000
+  C $CC61 cb=-1 S=$F9 depth=7 wb=$C000
+  C $CCDA cb=-1 S=$F9 depth=6 wb=$C000
+  C $CC71 cb=-1 S=$F9 depth=6 wb=$C000
+  T $CC61 cb=-1 S=$F9 depth=7 wb=$C000
+  C $CC61 cb=-1 S=$F9 depth=7 wb=$C000
+  C $CCDA cb=-1 S=$F9 depth=6 wb=$C000
+  C $CC71 cb=-1 S=$F9 depth=6 wb=$C000
+  T $CC61 cb=-1 S=$F9 depth=7 wb=$C000
+  C $CC61 cb=-1 S=$F9 depth=7 wb=$C000
+  T $E11E cb=-1 S=$F9 depth=5 wb=$E000
+  C $E11E cb=-1 S=$F9 depth=5 wb=$E000
+  n $0002 cb=-1 S=$FF depth=5 wb=$E000
+  T $E881 cb=-1 S=$F9 depth=5 wb=$E000
+  C $E881 cb=-1 S=$F9 depth=5 wb=$E000
+  T $E90A cb=-1 S=$F9 depth=5 wb=$E000
+  C $E90A cb=-1 S=$F9 depth=5 wb=$E000
+  C $DE5F cb=-1 S=$F9 depth=6 wb=$E000
+  T $E11E cb=-1 S=$F9 depth=7 wb=$C000
+  C $E11E cb=-1 S=$F9 depth=7 wb=$C000
+  T $D9F0 cb=-1 S=$FF depth=5 wb=$E000
+  C $D9F0 cb=-1 S=$FF depth=5 wb=$E000
+  C $D756 cb=-1 S=$FF depth=5 wb=$C000
+  C $D796 cb=-1 S=$FF depth=6 wb=$C000
+  T $D7C4 cb=-1 S=$FF depth=7 wb=$E000
+  C $D7C4 cb=-1 S=$FF depth=7 wb=$E000
+  T $D377 cb=-1 S=$FF depth=7 wb=$C000
+  C $D377 cb=-1 S=$FF depth=7 wb=$C000
+  C $8000 cb=-1 S=$FF depth=6 wb=$C000
+  T $871D cb=6 S=$FF depth=7 wb=$8000
+  C $871D cb=6 S=$FF depth=7 wb=$8000
+  C $8BBE cb=6 S=$FF depth=8 wb=$8000
+  C $874A cb=6 S=$FF depth=8 wb=$8000
+  T $8749 cb=-1 S=$FF depth=9 wb=$8000
+  C $8749 cb=-1 S=$FF depth=9 wb=$8000
+  T $89BF cb=-1 S=$FF depth=8 wb=$8000
+  C $89BF cb=-1 S=$FF depth=8 wb=$8000
+  T $8749 cb=-1 S=$FF depth=9 wb=$E000
+  C $8749 cb=-1 S=$FF depth=9 wb=$E000
+  T $8A35 cb=-1 S=$FF depth=9 wb=$E000
+  C $8A35 cb=-1 S=$FF depth=9 wb=$E000
+=== end dispatch fault ===
+
+=== dispatch fault 1 frame=0 cycles=124656 ===
+target gen=$A009 cpu=$8009 bank=6 class=CODE call_site=$0000
+cpu A=$0D X=$06 Y=$00 P=$00 S=$FF window=$8000 dispatch_depth=3 vblank_depth=0 ops=5534 budget=29781
+mapper type=4 current_bank=6 mirroring=2 select=$06 irq_latch=$00 irq_counter=$00 irq_reload=0 irq_enabled=0
+mapper_regs 00 00 00 00 00 00 0D 07
+caller (none)
+caller2 (none)
+target_bytes 4C 15 80 4C 50 80 4C F1
+stack_bytes 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+last_dispatches
+  T $D269 cb=-1 S=$FD depth=0 wb=$E000
+  C $D269 cb=-1 S=$FD depth=0 wb=$E000
+  C $D2F6 cb=-1 S=$FF depth=1 wb=$C000
+  C $CFBF cb=-1 S=$FF depth=1 wb=$C000
+  C $CFF3 cb=-1 S=$FF depth=2 wb=$C000
+  T $D406 cb=-1 S=$FF depth=1 wb=$C000
+  C $D406 cb=-1 S=$FF depth=1 wb=$C000
+  C $8009 cb=-1 S=$FF depth=2 wb=$C000
+=== end dispatch fault ===
+
+=== dispatch fault 2 frame=0 cycles=191343 ===
+target gen=$A003 cpu=$8003 bank=6 class=CODE call_site=$0000
+cpu A=$05 X=$10 Y=$00 P=$00 S=$FF window=$8000 dispatch_depth=4 vblank_depth=0 ops=12659 budget=29780
+mapper type=4 current_bank=6 mirroring=3 select=$07 irq_latch=$00 irq_counter=$00 irq_reload=0 irq_enabled=0
+mapper_regs 00 00 00 00 00 00 0D 05
+caller (none)
+caller2 (none)
+target_bytes 4C 85 86 4C 95 87 4C 15
+stack_bytes 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+last_dispatches
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $8003 cb=-1 S=$FF depth=3 wb=$C000
+=== end dispatch fault ===
+
+=== dispatch fault 3 frame=37 cycles=1284326 ===
+target gen=$D7C4 cpu=$D7C4 bank=7 class=CODE call_site=$023C
+cpu A=$D7 X=$07 Y=$01 P=$00 S=$FD window=$C000 dispatch_depth=5 vblank_depth=0 ops=3763 budget=29780
+mapper type=4 current_bank=5 mirroring=3 select=$07 irq_latch=$00 irq_counter=$00 irq_reload=0 irq_enabled=0
+mapper_regs 6A 6A 01 05 00 00 0A 0B
+caller func_EDF6
+caller2 (none)
+target_bytes 20 09 80 20 00 80 20 03
+stack_bytes 3C 02 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+last_dispatches
+  T $CC66 cb=-1 S=$F8 depth=5 wb=$C000
+  C $CC66 cb=-1 S=$F8 depth=5 wb=$C000
+  n $0002 cb=-1 S=$FE depth=3 wb=$E000
+  T $D9F0 cb=-1 S=$FE depth=3 wb=$E000
+  C $D9F0 cb=-1 S=$FE depth=3 wb=$E000
+  N $0002 cb=-1 S=$FB depth=3 wb=$E000
+  C $DE39 cb=-1 S=$F8 depth=3 wb=$C000
+  T $E11E cb=-1 S=$F8 depth=4 wb=$C000
+  C $E11E cb=-1 S=$F8 depth=4 wb=$C000
+  T $E11E cb=-1 S=$F8 depth=3 wb=$E000
+  C $E11E cb=-1 S=$F8 depth=3 wb=$E000
+  C $DCCE cb=-1 S=$F8 depth=3 wb=$C000
+  C $CB25 cb=-1 S=$F8 depth=3 wb=$C000
+  C $CD30 cb=-1 S=$F8 depth=4 wb=$C000
+  C $CD30 cb=-1 S=$F8 depth=4 wb=$C000
+  C $CC71 cb=-1 S=$F8 depth=4 wb=$C000
+  T $CC66 cb=-1 S=$F8 depth=5 wb=$C000
+  C $CC66 cb=-1 S=$F8 depth=5 wb=$C000
+  C $CCDA cb=-1 S=$F8 depth=4 wb=$C000
+  C $CC71 cb=-1 S=$F8 depth=4 wb=$C000
+  T $CC66 cb=-1 S=$F8 depth=5 wb=$C000
+  C $CC66 cb=-1 S=$F8 depth=5 wb=$C000
+  C $CCDA cb=-1 S=$F8 depth=4 wb=$C000
+  C $CC71 cb=-1 S=$F8 depth=4 wb=$C000
+  T $CC66 cb=-1 S=$F8 depth=5 wb=$C000
+  C $CC66 cb=-1 S=$F8 depth=5 wb=$C000
+  C $CCDA cb=-1 S=$F8 depth=4 wb=$C000
+  C $CC71 cb=-1 S=$F8 depth=4 wb=$C000
+  T $CC66 cb=-1 S=$F8 depth=5 wb=$C000
+  C $CC66 cb=-1 S=$F8 depth=5 wb=$C000
+  n $0002 cb=-1 S=$FE depth=3 wb=$E000
+  T $D9F0 cb=-1 S=$FE depth=3 wb=$E000
+  C $D9F0 cb=-1 S=$FE depth=3 wb=$E000
+  N $0002 cb=-1 S=$FA depth=3 wb=$E000
+  C $DE39 cb=-1 S=$F7 depth=3 wb=$C000
+  T $E11E cb=-1 S=$F7 depth=4 wb=$C000
+  C $E11E cb=-1 S=$F7 depth=4 wb=$C000
+  T $E11E cb=-1 S=$F7 depth=3 wb=$E000
+  C $E11E cb=-1 S=$F7 depth=3 wb=$E000
+  C $DCCE cb=-1 S=$F7 depth=3 wb=$C000
+  C $CB25 cb=-1 S=$F7 depth=3 wb=$C000
+  C $CD30 cb=-1 S=$F7 depth=4 wb=$C000
+  C $CD30 cb=-1 S=$F7 depth=4 wb=$C000
+  C $CC71 cb=-1 S=$F7 depth=4 wb=$C000
+  T $CC66 cb=-1 S=$F7 depth=5 wb=$C000
+  C $CC66 cb=-1 S=$F7 depth=5 wb=$C000
+  C $CCDA cb=-1 S=$F7 depth=4 wb=$C000
+  C $CC71 cb=-1 S=$F7 depth=4 wb=$C000
+  T $CC66 cb=-1 S=$F7 depth=5 wb=$C000
+  C $CC66 cb=-1 S=$F7 depth=5 wb=$C000
+  C $CCDA cb=-1 S=$F7 depth=4 wb=$C000
+  C $CC71 cb=-1 S=$F7 depth=4 wb=$C000
+  T $CC66 cb=-1 S=$F7 depth=5 wb=$C000
+  C $CC66 cb=-1 S=$F7 depth=5 wb=$C000
+  C $CCDA cb=-1 S=$F7 depth=4 wb=$C000
+  C $CC71 cb=-1 S=$F7 depth=4 wb=$C000
+  T $CC66 cb=-1 S=$F7 depth=5 wb=$C000
+  C $CC66 cb=-1 S=$F7 depth=5 wb=$C000
+  n $0002 cb=-1 S=$FD depth=3 wb=$E000
+  T $D9F0 cb=-1 S=$FD depth=3 wb=$E000
+  C $D9F0 cb=-1 S=$FD depth=3 wb=$E000
+  C $D796 cb=-1 S=$FD depth=3 wb=$C000
+  T $D7C4 cb=-1 S=$FD depth=4 wb=$E000
+  C $D7C4 cb=-1 S=$FD depth=4 wb=$E000
+=== end dispatch fault ===
+
+=== dispatch fault 4 frame=40 cycles=1373670 ===
+target gen=$D7B8 cpu=$D7B8 bank=7 class=CODE call_site=$0239
+cpu A=$D7 X=$07 Y=$00 P=$00 S=$FD window=$C000 dispatch_depth=5 vblank_depth=0 ops=3766 budget=29781
+mapper type=4 current_bank=5 mirroring=3 select=$07 irq_latch=$00 irq_counter=$00 irq_reload=0 irq_enabled=0
+mapper_regs 6A 6A 01 05 00 00 0A 0B
+caller func_EDF6
+caller2 (none)
+target_bytes 20 00 80 20 09 80 20 03
+stack_bytes 39 02 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+last_dispatches
+  C $911A cb=5 S=$FD depth=7 wb=$8000
+  T $9B6E cb=5 S=$FD depth=8 wb=$8000
+  C $9B6E cb=5 S=$FD depth=8 wb=$8000
+  C $910A cb=5 S=$FD depth=7 wb=$8000
+  T $99E7 cb=-1 S=$FD depth=8 wb=$8000
+  C $99E7 cb=-1 S=$FD depth=8 wb=$8000
+  C $9A4C cb=5 S=$FD depth=9 wb=$8000
+  T $9A69 cb=5 S=$FD depth=9 wb=$8000
+  C $9A69 cb=5 S=$FD depth=9 wb=$8000
+  C $913C cb=5 S=$FD depth=7 wb=$8000
+  T $917D cb=5 S=$FD depth=8 wb=$8000
+  C $917D cb=5 S=$FD depth=8 wb=$8000
+  C $911A cb=5 S=$FD depth=7 wb=$8000
+  T $9B6E cb=5 S=$FD depth=8 wb=$8000
+  C $9B6E cb=5 S=$FD depth=8 wb=$8000
+  C $910A cb=5 S=$FD depth=7 wb=$8000
+  T $99E7 cb=-1 S=$FD depth=8 wb=$8000
+  C $99E7 cb=-1 S=$FD depth=8 wb=$8000
+  C $9A4C cb=5 S=$FD depth=9 wb=$8000
+  T $9A69 cb=5 S=$FD depth=9 wb=$8000
+  C $9A69 cb=5 S=$FD depth=9 wb=$8000
+  C $913C cb=5 S=$FD depth=7 wb=$8000
+  T $917D cb=5 S=$FD depth=8 wb=$8000
+  C $917D cb=5 S=$FD depth=8 wb=$8000
+  C $911A cb=5 S=$FD depth=7 wb=$8000
+  T $9B6E cb=5 S=$FD depth=8 wb=$8000
+  C $9B6E cb=5 S=$FD depth=8 wb=$8000
+  T $8003 cb=-1 S=$FD depth=5 wb=$C000
+  C $8003 cb=-1 S=$FD depth=5 wb=$C000
+  T $8F55 cb=5 S=$FD depth=6 wb=$8000
+  C $8F55 cb=5 S=$FD depth=6 wb=$8000
+  T $D377 cb=-1 S=$FD depth=4 wb=$C000
+  C $D377 cb=-1 S=$FD depth=4 wb=$C000
+  N $0002 cb=-1 S=$FA depth=3 wb=$E000
+  C $DE39 cb=-1 S=$F7 depth=3 wb=$C000
+  T $E11E cb=-1 S=$F7 depth=4 wb=$C000
+  C $E11E cb=-1 S=$F7 depth=4 wb=$C000
+  T $E11E cb=-1 S=$F7 depth=3 wb=$E000
+  C $E11E cb=-1 S=$F7 depth=3 wb=$E000
+  C $DCCE cb=-1 S=$F7 depth=3 wb=$C000
+  C $CB25 cb=-1 S=$F7 depth=3 wb=$C000
+  C $CD30 cb=-1 S=$F7 depth=4 wb=$C000
+  C $CD30 cb=-1 S=$F7 depth=4 wb=$C000
+  C $CC71 cb=-1 S=$F7 depth=4 wb=$C000
+  T $CC66 cb=-1 S=$F7 depth=5 wb=$C000
+  C $CC66 cb=-1 S=$F7 depth=5 wb=$C000
+  C $CCDA cb=-1 S=$F7 depth=4 wb=$C000
+  C $CC71 cb=-1 S=$F7 depth=4 wb=$C000
+  T $CC66 cb=-1 S=$F7 depth=5 wb=$C000
+  C $CC66 cb=-1 S=$F7 depth=5 wb=$C000
+  C $CCDA cb=-1 S=$F7 depth=4 wb=$C000
+  C $CC71 cb=-1 S=$F7 depth=4 wb=$C000
+  T $CC66 cb=-1 S=$F7 depth=5 wb=$C000
+  C $CC66 cb=-1 S=$F7 depth=5 wb=$C000
+  C $CCDA cb=-1 S=$F7 depth=4 wb=$C000
+  C $CC71 cb=-1 S=$F7 depth=4 wb=$C000
+  T $CC66 cb=-1 S=$F7 depth=5 wb=$C000
+  C $CC66 cb=-1 S=$F7 depth=5 wb=$C000
+  n $0002 cb=-1 S=$FD depth=3 wb=$E000
+  T $D9F0 cb=-1 S=$FD depth=3 wb=$E000
+  C $D9F0 cb=-1 S=$FD depth=3 wb=$E000
+  C $D796 cb=-1 S=$FD depth=3 wb=$C000
+  T $D7B8 cb=-1 S=$FD depth=4 wb=$E000
+  C $D7B8 cb=-1 S=$FD depth=4 wb=$E000
+=== end dispatch fault ===
+
+=== dispatch fault 5 frame=221 cycles=6835927 ===
+target gen=$89DD cpu=$89DD bank=6 class=CODE call_site=$0000
+cpu A=$89 X=$03 Y=$01 P=$00 S=$FF window=$8000 dispatch_depth=7 vblank_depth=0 ops=16191 budget=29780
+mapper type=4 current_bank=6 mirroring=3 select=$06 irq_latch=$00 irq_counter=$00 irq_reload=0 irq_enabled=0
+mapper_regs 6A 6A 01 05 00 00 0C 05
+caller func_EDF6
+caller2 func_89BF_b6
+target_bytes 86 33 8A 0A 65 33 A8 A9
+stack_bytes 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+last_dispatches
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $DB92 cb=-1 S=$FF depth=3 wb=$C000
+  C $D341 cb=-1 S=$FF depth=4 wb=$C000
+  T $D377 cb=-1 S=$FF depth=4 wb=$C000
+  C $D377 cb=-1 S=$FF depth=4 wb=$C000
+  C $DC27 cb=-1 S=$FF depth=3 wb=$C000
+  C $DBAF cb=-1 S=$FF depth=3 wb=$C000
+  C $8021 cb=-1 S=$FF depth=4 wb=$C000
+  T $89BF cb=6 S=$FF depth=5 wb=$8000
+  C $89BF cb=6 S=$FF depth=5 wb=$8000
+  T $89DD cb=-1 S=$FF depth=6 wb=$E000
+  C $89DD cb=-1 S=$FF depth=6 wb=$E000
+=== end dispatch fault ===
+
+=== dispatch fault 6 frame=221 cycles=6851976 ===
+target gen=$FF01 cpu=$FF01 bank=7 class=ZERO_FILLED call_site=$6041
+cpu A=$00 X=$03 Y=$04 P=$00 S=$FB window=$E000 dispatch_depth=9 vblank_depth=2 ops=2460 budget=29781
+mapper type=4 current_bank=3 mirroring=3 select=$07 irq_latch=$7F irq_counter=$00 irq_reload=1 irq_enabled=1
+mapper_regs 3C 3E 00 00 00 00 06 07
+caller func_CEAC
+caller2 func_CDE7
+target_bytes 00 00 00 00 00 00 00 00
+stack_bytes 41 60 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+last_dispatches
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $DB92 cb=-1 S=$FF depth=3 wb=$C000
+  C $D341 cb=-1 S=$FF depth=4 wb=$C000
+  T $D377 cb=-1 S=$FF depth=4 wb=$C000
+  C $D377 cb=-1 S=$FF depth=4 wb=$C000
+  C $DC27 cb=-1 S=$FF depth=3 wb=$C000
+  C $DBAF cb=-1 S=$FF depth=3 wb=$C000
+  C $8021 cb=-1 S=$FF depth=4 wb=$C000
+  T $89BF cb=6 S=$FF depth=5 wb=$8000
+  C $89BF cb=6 S=$FF depth=5 wb=$8000
+  T $89DD cb=-1 S=$FF depth=6 wb=$E000
+  C $89DD cb=-1 S=$FF depth=6 wb=$E000
+  T $89DD cb=-1 S=$FF depth=6 wb=$E000
+  C $89DD cb=-1 S=$FF depth=6 wb=$E000
+  T $89DD cb=-1 S=$FF depth=6 wb=$E000
+  C $89DD cb=-1 S=$FF depth=6 wb=$E000
+  T $89DD cb=-1 S=$FF depth=6 wb=$E000
+  C $89DD cb=-1 S=$FF depth=6 wb=$E000
+  N $0002 cb=-1 S=$FC depth=3 wb=$E000
+  C $DE39 cb=-1 S=$F9 depth=3 wb=$C000
+  T $E11E cb=-1 S=$F9 depth=4 wb=$C000
+  C $E11E cb=-1 S=$F9 depth=4 wb=$C000
+  T $E11E cb=-1 S=$F9 depth=3 wb=$E000
+  C $E11E cb=-1 S=$F9 depth=3 wb=$E000
+  C $DCCE cb=-1 S=$F9 depth=3 wb=$C000
+  C $CB25 cb=-1 S=$F9 depth=3 wb=$C000
+  C $CF72 cb=-1 S=$F9 depth=4 wb=$C000
+  C $CFF3 cb=-1 S=$F9 depth=4 wb=$C000
+  C $CD30 cb=-1 S=$F9 depth=4 wb=$C000
+  C $CD7D cb=-1 S=$F9 depth=5 wb=$C000
+  T $CDE7 cb=-1 S=$F9 depth=6 wb=$C000
+  C $CDE7 cb=-1 S=$F9 depth=6 wb=$C000
+  T $CEAC cb=-1 S=$F9 depth=7 wb=$C000
+  C $CEAC cb=-1 S=$F9 depth=7 wb=$C000
+  D $CDE7 cb=-1 S=$F9 depth=6 wb=$C000
+  C $CDE7 cb=-1 S=$F9 depth=6 wb=$C000
+  T $CEF0 cb=-1 S=$F9 depth=7 wb=$C000
+  C $CEF0 cb=-1 S=$F9 depth=7 wb=$C000
+  C $CD5F cb=-1 S=$F9 depth=8 wb=$C000
+  C $CD7D cb=-1 S=$F9 depth=5 wb=$C000
+  T $CDE7 cb=-1 S=$F9 depth=6 wb=$C000
+  C $CDE7 cb=-1 S=$F9 depth=6 wb=$C000
+  T $CE4C cb=-1 S=$F9 depth=7 wb=$C000
+  C $CE4C cb=-1 S=$F9 depth=7 wb=$C000
+  T $CD93 cb=-1 S=$F9 depth=8 wb=$C000
+  C $CD93 cb=-1 S=$F9 depth=8 wb=$C000
+  D $CDE7 cb=-1 S=$F9 depth=6 wb=$C000
+  C $CDE7 cb=-1 S=$F9 depth=6 wb=$C000
+  T $CEF0 cb=-1 S=$F9 depth=7 wb=$C000
+  C $CEF0 cb=-1 S=$F9 depth=7 wb=$C000
+  D $CDE7 cb=-1 S=$F9 depth=6 wb=$C000
+  C $CDE7 cb=-1 S=$F9 depth=6 wb=$C000
+  T $CEAC cb=-1 S=$F9 depth=7 wb=$C000
+  C $CEAC cb=-1 S=$F9 depth=7 wb=$C000
+  C $CD5F cb=-1 S=$F9 depth=8 wb=$C000
+  T $FF01 cb=-1 S=$FB depth=8 wb=$C000
+  C $FF01 cb=-1 S=$FB depth=8 wb=$C000
+=== end dispatch fault ===
+
+=== dispatch fault 7 frame=221 cycles=13593394 ===
+target gen=$E9AE cpu=$E9AE bank=7 class=CODE call_site=$FF00
+cpu A=$00 X=$FF Y=$00 P=$00 S=$F9 window=$E000 dispatch_depth=4 vblank_depth=1 ops=43265 budget=29780
+mapper type=4 current_bank=6 mirroring=3 select=$07 irq_latch=$1C irq_counter=$00 irq_reload=0 irq_enabled=1
+mapper_regs 3C 3E 00 00 00 00 0C 05
+caller func_E603
+caller2 func_CDE7
+target_bytes A9 00 8D 00 E0 A2 07 CA
+stack_bytes 00 FF 41 60 00 00 00 00 00 00 00 00 00 00 00 00
+last_dispatches
+  C $CD7D cb=-1 S=$04 depth=5 wb=$C000
+  T $CDE7 cb=-1 S=$04 depth=6 wb=$C000
+  C $CDE7 cb=-1 S=$04 depth=6 wb=$C000
+  T $CED7 cb=-1 S=$04 depth=7 wb=$C000
+  C $CED7 cb=-1 S=$04 depth=7 wb=$C000
+  D $CDE7 cb=-1 S=$04 depth=6 wb=$C000
+  C $CDE7 cb=-1 S=$04 depth=6 wb=$C000
+  T $CE4C cb=-1 S=$04 depth=7 wb=$C000
+  C $CE4C cb=-1 S=$04 depth=7 wb=$C000
+  T $CD93 cb=-1 S=$04 depth=8 wb=$C000
+  C $CD93 cb=-1 S=$04 depth=8 wb=$C000
+  D $CDE7 cb=-1 S=$04 depth=6 wb=$C000
+  C $CDE7 cb=-1 S=$04 depth=6 wb=$C000
+  T $CE4C cb=-1 S=$04 depth=7 wb=$C000
+  C $CE4C cb=-1 S=$04 depth=7 wb=$C000
+  T $CD93 cb=-1 S=$04 depth=8 wb=$C000
+  C $CD93 cb=-1 S=$04 depth=8 wb=$C000
+  D $CDE7 cb=-1 S=$04 depth=6 wb=$C000
+  C $CDE7 cb=-1 S=$04 depth=6 wb=$C000
+  T $CE4C cb=-1 S=$04 depth=7 wb=$C000
+  C $CE4C cb=-1 S=$04 depth=7 wb=$C000
+  T $CD93 cb=-1 S=$04 depth=8 wb=$C000
+  C $CD93 cb=-1 S=$04 depth=8 wb=$C000
+  D $CDE7 cb=-1 S=$04 depth=6 wb=$C000
+  C $CDE7 cb=-1 S=$04 depth=6 wb=$C000
+  T $CE78 cb=-1 S=$04 depth=7 wb=$C000
+  C $CE78 cb=-1 S=$04 depth=7 wb=$C000
+  D $CDE7 cb=-1 S=$04 depth=6 wb=$C000
+  C $CDE7 cb=-1 S=$04 depth=6 wb=$C000
+  T $CE78 cb=-1 S=$04 depth=7 wb=$C000
+  C $CE78 cb=-1 S=$04 depth=7 wb=$C000
+  D $CDE7 cb=-1 S=$04 depth=6 wb=$C000
+  C $CDE7 cb=-1 S=$04 depth=6 wb=$C000
+  T $CECE cb=-1 S=$04 depth=7 wb=$C000
+  C $CECE cb=-1 S=$04 depth=7 wb=$C000
+  D $CDE7 cb=-1 S=$04 depth=6 wb=$C000
+  C $CDE7 cb=-1 S=$04 depth=6 wb=$C000
+  T $CE9C cb=-1 S=$04 depth=7 wb=$C000
+  C $CE9C cb=-1 S=$04 depth=7 wb=$C000
+  D $CDE7 cb=-1 S=$04 depth=6 wb=$C000
+  C $CDE7 cb=-1 S=$04 depth=6 wb=$C000
+  T $CEAC cb=-1 S=$04 depth=7 wb=$C000
+  C $CEAC cb=-1 S=$04 depth=7 wb=$C000
+  D $CDE7 cb=-1 S=$04 depth=6 wb=$C000
+  C $CDE7 cb=-1 S=$04 depth=6 wb=$C000
+  T $CEAC cb=-1 S=$04 depth=7 wb=$C000
+  C $CEAC cb=-1 S=$04 depth=7 wb=$C000
+  C $CD5F cb=-1 S=$04 depth=8 wb=$C000
+  T $0001 cb=-1 S=$06 depth=8 wb=$C000
+  C $0001 cb=-1 S=$06 depth=8 wb=$C000
+  I $0001 cb=-1 S=$06 depth=9 wb=$C000
+  C $CD30 cb=-1 S=$06 depth=4 wb=$C000
+  C $CC71 cb=-1 S=$06 depth=4 wb=$C000
+  C $CCDA cb=-1 S=$06 depth=4 wb=$C000
+  C $CC71 cb=-1 S=$06 depth=4 wb=$C000
+  C $CCDA cb=-1 S=$06 depth=4 wb=$C000
+  C $CC71 cb=-1 S=$06 depth=4 wb=$C000
+  C $CCDA cb=-1 S=$06 depth=4 wb=$C000
+  C $CC71 cb=-1 S=$06 depth=4 wb=$C000
+  T $CC61 cb=-1 S=$06 depth=5 wb=$C000
+  C $CC61 cb=-1 S=$06 depth=5 wb=$C000
+  n $0002 cb=-1 S=$0C depth=3 wb=$E000
+  T $E9AE cb=-1 S=$F9 depth=3 wb=$E000
+  C $E9AE cb=-1 S=$F9 depth=3 wb=$E000
+=== end dispatch fault ===
+
+=== dispatch fault 8 frame=223 cycles=20342893 ===
+target gen=$A013 cpu=$A013 bank=3 class=CODE call_site=$0000
+cpu A=$00 X=$02 Y=$04 P=$00 S=$FB window=$A000 dispatch_depth=11 vblank_depth=2 ops=2810 budget=29780
+mapper type=4 current_bank=3 mirroring=3 select=$07 irq_latch=$7F irq_counter=$00 irq_reload=1 irq_enabled=1
+mapper_regs 3C 3E 00 00 00 00 06 07
+caller func_CE78
+caller2 func_CDE7
+target_bytes 9C A0 F5 12 A0 F8 02 F4
+stack_bytes 00 00 03 2D 00 00 00 00 00 00 00 00 00 00 00 00
+last_dispatches
+  C $D9F0 cb=-1 S=$FF depth=3 wb=$E000
+  C $DBAF cb=-1 S=$FF depth=3 wb=$C000
+  C $8021 cb=-1 S=$FF depth=4 wb=$C000
+  T $89BF cb=6 S=$FF depth=5 wb=$8000
+  C $89BF cb=6 S=$FF depth=5 wb=$8000
+  T $89DD cb=-1 S=$FF depth=6 wb=$E000
+  C $89DD cb=-1 S=$FF depth=6 wb=$E000
+  T $89DD cb=-1 S=$FF depth=6 wb=$E000
+  C $89DD cb=-1 S=$FF depth=6 wb=$E000
+  T $89DD cb=-1 S=$FF depth=6 wb=$E000
+  C $89DD cb=-1 S=$FF depth=6 wb=$E000
+  T $89DD cb=-1 S=$FF depth=6 wb=$E000
+  C $89DD cb=-1 S=$FF depth=6 wb=$E000
+  C $DB65 cb=-1 S=$FF depth=3 wb=$C000
+  C $DB92 cb=-1 S=$FF depth=3 wb=$C000
+  C $D341 cb=-1 S=$FF depth=4 wb=$C000
+  N $0002 cb=-1 S=$FA depth=5 wb=$C000
+  C $DE39 cb=-1 S=$F7 depth=5 wb=$C000
+  T $E11E cb=-1 S=$F7 depth=6 wb=$C000
+  C $E11E cb=-1 S=$F7 depth=6 wb=$C000
+  T $E11E cb=-1 S=$F7 depth=5 wb=$E000
+  C $E11E cb=-1 S=$F7 depth=5 wb=$E000
+  C $DCCE cb=-1 S=$F7 depth=5 wb=$C000
+  C $CB25 cb=-1 S=$F7 depth=5 wb=$C000
+  C $CF72 cb=-1 S=$F7 depth=6 wb=$C000
+  C $CFF3 cb=-1 S=$F7 depth=6 wb=$C000
+  C $CD30 cb=-1 S=$F7 depth=6 wb=$C000
+  C $CD7D cb=-1 S=$F7 depth=7 wb=$C000
+  T $CDE7 cb=-1 S=$F7 depth=8 wb=$C000
+  C $CDE7 cb=-1 S=$F7 depth=8 wb=$C000
+  T $CEAC cb=-1 S=$F7 depth=9 wb=$C000
+  C $CEAC cb=-1 S=$F7 depth=9 wb=$C000
+  D $CDE7 cb=-1 S=$F7 depth=8 wb=$C000
+  C $CDE7 cb=-1 S=$F7 depth=8 wb=$C000
+  T $CEF0 cb=-1 S=$F7 depth=9 wb=$C000
+  C $CEF0 cb=-1 S=$F7 depth=9 wb=$C000
+  C $CD5F cb=-1 S=$F7 depth=10 wb=$C000
+  C $CD7D cb=-1 S=$F7 depth=7 wb=$C000
+  T $CDE7 cb=-1 S=$F7 depth=8 wb=$C000
+  C $CDE7 cb=-1 S=$F7 depth=8 wb=$C000
+  T $CE4C cb=-1 S=$F7 depth=9 wb=$C000
+  C $CE4C cb=-1 S=$F7 depth=9 wb=$C000
+  T $CD93 cb=-1 S=$F7 depth=10 wb=$C000
+  C $CD93 cb=-1 S=$F7 depth=10 wb=$C000
+  D $CDE7 cb=-1 S=$F7 depth=8 wb=$C000
+  C $CDE7 cb=-1 S=$F7 depth=8 wb=$C000
+  T $CEF0 cb=-1 S=$F7 depth=9 wb=$C000
+  C $CEF0 cb=-1 S=$F7 depth=9 wb=$C000
+  D $CDE7 cb=-1 S=$F7 depth=8 wb=$C000
+  C $CDE7 cb=-1 S=$F7 depth=8 wb=$C000
+  T $CEAC cb=-1 S=$F7 depth=9 wb=$C000
+  C $CEAC cb=-1 S=$F7 depth=9 wb=$C000
+  C $CD5F cb=-1 S=$F7 depth=10 wb=$C000
+  T $0301 cb=-1 S=$F9 depth=10 wb=$C000
+  C $0301 cb=-1 S=$F9 depth=10 wb=$C000
+  I $0301 cb=-1 S=$F9 depth=11 wb=$C000
+  C $CD7D cb=-1 S=$F9 depth=7 wb=$C000
+  T $CDE7 cb=-1 S=$F9 depth=8 wb=$C000
+  C $CDE7 cb=-1 S=$F9 depth=8 wb=$C000
+  T $CE78 cb=-1 S=$F9 depth=9 wb=$C000
+  C $CE78 cb=-1 S=$F9 depth=9 wb=$C000
+  C $CD5F cb=-1 S=$F9 depth=10 wb=$C000
+  T $A013 cb=-1 S=$FB depth=10 wb=$C000
+  C $A013 cb=-1 S=$FB depth=10 wb=$C000
+=== end dispatch fault ===
+
+=== dispatch fault 9 frame=223 cycles=20344918 ===
+target gen=$2D04 cpu=$2D04 bank=3 class=ZERO_FILLED call_site=$0000
+cpu A=$00 X=$00 Y=$15 P=$00 S=$FF window=$C000 dispatch_depth=11 vblank_depth=2 ops=4835 budget=29780
+mapper type=4 current_bank=3 mirroring=3 select=$07 irq_latch=$7F irq_counter=$00 irq_reload=1 irq_enabled=1
+mapper_regs 3C 3E 00 00 00 00 06 07
+caller func_CEAC
+caller2 func_CDE7
+target_bytes 00 00 00 00 00 00 00 00
+stack_bytes 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+last_dispatches
+  T $CECE cb=-1 S=$FB depth=9 wb=$C000
+  C $CECE cb=-1 S=$FB depth=9 wb=$C000
+  D $CDE7 cb=-1 S=$FB depth=8 wb=$C000
+  C $CDE7 cb=-1 S=$FB depth=8 wb=$C000
+  T $CEAC cb=-1 S=$FB depth=9 wb=$C000
+  C $CEAC cb=-1 S=$FB depth=9 wb=$C000
+  D $CDE7 cb=-1 S=$FB depth=8 wb=$C000
+  C $CDE7 cb=-1 S=$FB depth=8 wb=$C000
+  T $CEAC cb=-1 S=$FB depth=9 wb=$C000
+  C $CEAC cb=-1 S=$FB depth=9 wb=$C000
+  C $CD5F cb=-1 S=$FB depth=10 wb=$C000
+  T $0001 cb=-1 S=$FD depth=10 wb=$C000
+  C $0001 cb=-1 S=$FD depth=10 wb=$C000
+  I $0001 cb=-1 S=$FD depth=11 wb=$C000
+  C $CD7D cb=-1 S=$FD depth=7 wb=$C000
+  T $CDE7 cb=-1 S=$FD depth=8 wb=$C000
+  C $CDE7 cb=-1 S=$FD depth=8 wb=$C000
+  T $CED7 cb=-1 S=$FD depth=9 wb=$C000
+  C $CED7 cb=-1 S=$FD depth=9 wb=$C000
+  D $CDE7 cb=-1 S=$FD depth=8 wb=$C000
+  C $CDE7 cb=-1 S=$FD depth=8 wb=$C000
+  T $CE4C cb=-1 S=$FD depth=9 wb=$C000
+  C $CE4C cb=-1 S=$FD depth=9 wb=$C000
+  T $CD93 cb=-1 S=$FD depth=10 wb=$C000
+  C $CD93 cb=-1 S=$FD depth=10 wb=$C000
+  D $CDE7 cb=-1 S=$FD depth=8 wb=$C000
+  C $CDE7 cb=-1 S=$FD depth=8 wb=$C000
+  T $CE4C cb=-1 S=$FD depth=9 wb=$C000
+  C $CE4C cb=-1 S=$FD depth=9 wb=$C000
+  T $CD93 cb=-1 S=$FD depth=10 wb=$C000
+  C $CD93 cb=-1 S=$FD depth=10 wb=$C000
+  D $CDE7 cb=-1 S=$FD depth=8 wb=$C000
+  C $CDE7 cb=-1 S=$FD depth=8 wb=$C000
+  T $CE4C cb=-1 S=$FD depth=9 wb=$C000
+  C $CE4C cb=-1 S=$FD depth=9 wb=$C000
+  T $CD93 cb=-1 S=$FD depth=10 wb=$C000
+  C $CD93 cb=-1 S=$FD depth=10 wb=$C000
+  D $CDE7 cb=-1 S=$FD depth=8 wb=$C000
+  C $CDE7 cb=-1 S=$FD depth=8 wb=$C000
+  T $CE78 cb=-1 S=$FD depth=9 wb=$C000
+  C $CE78 cb=-1 S=$FD depth=9 wb=$C000
+  D $CDE7 cb=-1 S=$FD depth=8 wb=$C000
+  C $CDE7 cb=-1 S=$FD depth=8 wb=$C000
+  T $CE78 cb=-1 S=$FD depth=9 wb=$C000
+  C $CE78 cb=-1 S=$FD depth=9 wb=$C000
+  D $CDE7 cb=-1 S=$FD depth=8 wb=$C000
+  C $CDE7 cb=-1 S=$FD depth=8 wb=$C000
+  T $CECE cb=-1 S=$FD depth=9 wb=$C000
+  C $CECE cb=-1 S=$FD depth=9 wb=$C000
+  D $CDE7 cb=-1 S=$FD depth=8 wb=$C000
+  C $CDE7 cb=-1 S=$FD depth=8 wb=$C000
+  T $CE9C cb=-1 S=$FD depth=9 wb=$C000
+  C $CE9C cb=-1 S=$FD depth=9 wb=$C000
+  D $CDE7 cb=-1 S=$FD depth=8 wb=$C000
+  C $CDE7 cb=-1 S=$FD depth=8 wb=$C000
+  T $CEAC cb=-1 S=$FD depth=9 wb=$C000
+  C $CEAC cb=-1 S=$FD depth=9 wb=$C000
+  D $CDE7 cb=-1 S=$FD depth=8 wb=$C000
+  C $CDE7 cb=-1 S=$FD depth=8 wb=$C000
+  T $CEAC cb=-1 S=$FD depth=9 wb=$C000
+  C $CEAC cb=-1 S=$FD depth=9 wb=$C000
+  C $CD5F cb=-1 S=$FD depth=10 wb=$C000
+  T $2D04 cb=-1 S=$FF depth=10 wb=$C000
+  C $2D04 cb=-1 S=$FF depth=10 wb=$C000
+=== end dispatch fault ===
+
+=== dispatch fault 1 frame=0 cycles=124656 ===
+target gen=$A009 cpu=$8009 bank=6 class=CODE call_site=$0000
+cpu A=$0D X=$06 Y=$00 P=$00 S=$FF window=$8000 dispatch_depth=3 vblank_depth=0 ops=5534 budget=29781
+mapper type=4 current_bank=6 mirroring=2 select=$06 irq_latch=$00 irq_counter=$00 irq_reload=0 irq_enabled=0
+mapper_regs 00 00 00 00 00 00 0D 07
+caller (none)
+caller2 (none)
+target_bytes 4C 15 80 4C 50 80 4C F1
+stack_bytes 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+last_dispatches
+  T $D269 cb=-1 S=$FD depth=0 wb=$E000
+  C $D269 cb=-1 S=$FD depth=0 wb=$E000
+  C $D2F6 cb=-1 S=$FF depth=1 wb=$C000
+  C $CFBF cb=-1 S=$FF depth=1 wb=$C000
+  C $CFF3 cb=-1 S=$FF depth=2 wb=$C000
+  T $D406 cb=-1 S=$FF depth=1 wb=$C000
+  C $D406 cb=-1 S=$FF depth=1 wb=$C000
+  C $8009 cb=-1 S=$FF depth=2 wb=$C000
+=== end dispatch fault ===
+
+=== dispatch fault 2 frame=0 cycles=191343 ===
+target gen=$A003 cpu=$8003 bank=6 class=CODE call_site=$0000
+cpu A=$05 X=$10 Y=$00 P=$00 S=$FF window=$8000 dispatch_depth=4 vblank_depth=0 ops=12659 budget=29780
+mapper type=4 current_bank=6 mirroring=3 select=$07 irq_latch=$00 irq_counter=$00 irq_reload=0 irq_enabled=0
+mapper_regs 00 00 00 00 00 00 0D 05
+caller (none)
+caller2 (none)
+target_bytes 4C 85 86 4C 95 87 4C 15
+stack_bytes 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+last_dispatches
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $8003 cb=-1 S=$FF depth=3 wb=$C000
+=== end dispatch fault ===
+
+=== dispatch fault 3 frame=37 cycles=1284326 ===
+target gen=$D7C4 cpu=$D7C4 bank=7 class=CODE call_site=$023C
+cpu A=$D7 X=$07 Y=$01 P=$00 S=$FD window=$C000 dispatch_depth=5 vblank_depth=0 ops=3763 budget=29780
+mapper type=4 current_bank=5 mirroring=3 select=$07 irq_latch=$00 irq_counter=$00 irq_reload=0 irq_enabled=0
+mapper_regs 6A 6A 01 05 00 00 0A 0B
+caller func_EDF6
+caller2 (none)
+target_bytes 20 09 80 20 00 80 20 03
+stack_bytes 3C 02 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+last_dispatches
+  T $CC66 cb=-1 S=$F8 depth=5 wb=$C000
+  C $CC66 cb=-1 S=$F8 depth=5 wb=$C000
+  n $0002 cb=-1 S=$FE depth=3 wb=$E000
+  T $D9F0 cb=-1 S=$FE depth=3 wb=$E000
+  C $D9F0 cb=-1 S=$FE depth=3 wb=$E000
+  N $0002 cb=-1 S=$FB depth=3 wb=$E000
+  C $DE39 cb=-1 S=$F8 depth=3 wb=$C000
+  T $E11E cb=-1 S=$F8 depth=4 wb=$C000
+  C $E11E cb=-1 S=$F8 depth=4 wb=$C000
+  T $E11E cb=-1 S=$F8 depth=3 wb=$E000
+  C $E11E cb=-1 S=$F8 depth=3 wb=$E000
+  C $DCCE cb=-1 S=$F8 depth=3 wb=$C000
+  C $CB25 cb=-1 S=$F8 depth=3 wb=$C000
+  C $CD30 cb=-1 S=$F8 depth=4 wb=$C000
+  C $CD30 cb=-1 S=$F8 depth=4 wb=$C000
+  C $CC71 cb=-1 S=$F8 depth=4 wb=$C000
+  T $CC66 cb=-1 S=$F8 depth=5 wb=$C000
+  C $CC66 cb=-1 S=$F8 depth=5 wb=$C000
+  C $CCDA cb=-1 S=$F8 depth=4 wb=$C000
+  C $CC71 cb=-1 S=$F8 depth=4 wb=$C000
+  T $CC66 cb=-1 S=$F8 depth=5 wb=$C000
+  C $CC66 cb=-1 S=$F8 depth=5 wb=$C000
+  C $CCDA cb=-1 S=$F8 depth=4 wb=$C000
+  C $CC71 cb=-1 S=$F8 depth=4 wb=$C000
+  T $CC66 cb=-1 S=$F8 depth=5 wb=$C000
+  C $CC66 cb=-1 S=$F8 depth=5 wb=$C000
+  C $CCDA cb=-1 S=$F8 depth=4 wb=$C000
+  C $CC71 cb=-1 S=$F8 depth=4 wb=$C000
+  T $CC66 cb=-1 S=$F8 depth=5 wb=$C000
+  C $CC66 cb=-1 S=$F8 depth=5 wb=$C000
+  n $0002 cb=-1 S=$FE depth=3 wb=$E000
+  T $D9F0 cb=-1 S=$FE depth=3 wb=$E000
+  C $D9F0 cb=-1 S=$FE depth=3 wb=$E000
+  N $0002 cb=-1 S=$FA depth=3 wb=$E000
+  C $DE39 cb=-1 S=$F7 depth=3 wb=$C000
+  T $E11E cb=-1 S=$F7 depth=4 wb=$C000
+  C $E11E cb=-1 S=$F7 depth=4 wb=$C000
+  T $E11E cb=-1 S=$F7 depth=3 wb=$E000
+  C $E11E cb=-1 S=$F7 depth=3 wb=$E000
+  C $DCCE cb=-1 S=$F7 depth=3 wb=$C000
+  C $CB25 cb=-1 S=$F7 depth=3 wb=$C000
+  C $CD30 cb=-1 S=$F7 depth=4 wb=$C000
+  C $CD30 cb=-1 S=$F7 depth=4 wb=$C000
+  C $CC71 cb=-1 S=$F7 depth=4 wb=$C000
+  T $CC66 cb=-1 S=$F7 depth=5 wb=$C000
+  C $CC66 cb=-1 S=$F7 depth=5 wb=$C000
+  C $CCDA cb=-1 S=$F7 depth=4 wb=$C000
+  C $CC71 cb=-1 S=$F7 depth=4 wb=$C000
+  T $CC66 cb=-1 S=$F7 depth=5 wb=$C000
+  C $CC66 cb=-1 S=$F7 depth=5 wb=$C000
+  C $CCDA cb=-1 S=$F7 depth=4 wb=$C000
+  C $CC71 cb=-1 S=$F7 depth=4 wb=$C000
+  T $CC66 cb=-1 S=$F7 depth=5 wb=$C000
+  C $CC66 cb=-1 S=$F7 depth=5 wb=$C000
+  C $CCDA cb=-1 S=$F7 depth=4 wb=$C000
+  C $CC71 cb=-1 S=$F7 depth=4 wb=$C000
+  T $CC66 cb=-1 S=$F7 depth=5 wb=$C000
+  C $CC66 cb=-1 S=$F7 depth=5 wb=$C000
+  n $0002 cb=-1 S=$FD depth=3 wb=$E000
+  T $D9F0 cb=-1 S=$FD depth=3 wb=$E000
+  C $D9F0 cb=-1 S=$FD depth=3 wb=$E000
+  C $D796 cb=-1 S=$FD depth=3 wb=$C000
+  T $D7C4 cb=-1 S=$FD depth=4 wb=$E000
+  C $D7C4 cb=-1 S=$FD depth=4 wb=$E000
+=== end dispatch fault ===
+
+=== dispatch fault 4 frame=40 cycles=1373670 ===
+target gen=$D7B8 cpu=$D7B8 bank=7 class=CODE call_site=$0239
+cpu A=$D7 X=$07 Y=$00 P=$00 S=$FD window=$C000 dispatch_depth=5 vblank_depth=0 ops=3766 budget=29781
+mapper type=4 current_bank=5 mirroring=3 select=$07 irq_latch=$00 irq_counter=$00 irq_reload=0 irq_enabled=0
+mapper_regs 6A 6A 01 05 00 00 0A 0B
+caller func_EDF6
+caller2 (none)
+target_bytes 20 00 80 20 09 80 20 03
+stack_bytes 39 02 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+last_dispatches
+  C $911A cb=5 S=$FD depth=7 wb=$8000
+  T $9B6E cb=5 S=$FD depth=8 wb=$8000
+  C $9B6E cb=5 S=$FD depth=8 wb=$8000
+  C $910A cb=5 S=$FD depth=7 wb=$8000
+  T $99E7 cb=-1 S=$FD depth=8 wb=$8000
+  C $99E7 cb=-1 S=$FD depth=8 wb=$8000
+  C $9A4C cb=5 S=$FD depth=9 wb=$8000
+  T $9A69 cb=5 S=$FD depth=9 wb=$8000
+  C $9A69 cb=5 S=$FD depth=9 wb=$8000
+  C $913C cb=5 S=$FD depth=7 wb=$8000
+  T $917D cb=5 S=$FD depth=8 wb=$8000
+  C $917D cb=5 S=$FD depth=8 wb=$8000
+  C $911A cb=5 S=$FD depth=7 wb=$8000
+  T $9B6E cb=5 S=$FD depth=8 wb=$8000
+  C $9B6E cb=5 S=$FD depth=8 wb=$8000
+  C $910A cb=5 S=$FD depth=7 wb=$8000
+  T $99E7 cb=-1 S=$FD depth=8 wb=$8000
+  C $99E7 cb=-1 S=$FD depth=8 wb=$8000
+  C $9A4C cb=5 S=$FD depth=9 wb=$8000
+  T $9A69 cb=5 S=$FD depth=9 wb=$8000
+  C $9A69 cb=5 S=$FD depth=9 wb=$8000
+  C $913C cb=5 S=$FD depth=7 wb=$8000
+  T $917D cb=5 S=$FD depth=8 wb=$8000
+  C $917D cb=5 S=$FD depth=8 wb=$8000
+  C $911A cb=5 S=$FD depth=7 wb=$8000
+  T $9B6E cb=5 S=$FD depth=8 wb=$8000
+  C $9B6E cb=5 S=$FD depth=8 wb=$8000
+  T $8003 cb=-1 S=$FD depth=5 wb=$C000
+  C $8003 cb=-1 S=$FD depth=5 wb=$C000
+  T $8F55 cb=5 S=$FD depth=6 wb=$8000
+  C $8F55 cb=5 S=$FD depth=6 wb=$8000
+  T $D377 cb=-1 S=$FD depth=4 wb=$C000
+  C $D377 cb=-1 S=$FD depth=4 wb=$C000
+  N $0002 cb=-1 S=$FA depth=3 wb=$E000
+  C $DE39 cb=-1 S=$F7 depth=3 wb=$C000
+  T $E11E cb=-1 S=$F7 depth=4 wb=$C000
+  C $E11E cb=-1 S=$F7 depth=4 wb=$C000
+  T $E11E cb=-1 S=$F7 depth=3 wb=$E000
+  C $E11E cb=-1 S=$F7 depth=3 wb=$E000
+  C $DCCE cb=-1 S=$F7 depth=3 wb=$C000
+  C $CB25 cb=-1 S=$F7 depth=3 wb=$C000
+  C $CD30 cb=-1 S=$F7 depth=4 wb=$C000
+  C $CD30 cb=-1 S=$F7 depth=4 wb=$C000
+  C $CC71 cb=-1 S=$F7 depth=4 wb=$C000
+  T $CC66 cb=-1 S=$F7 depth=5 wb=$C000
+  C $CC66 cb=-1 S=$F7 depth=5 wb=$C000
+  C $CCDA cb=-1 S=$F7 depth=4 wb=$C000
+  C $CC71 cb=-1 S=$F7 depth=4 wb=$C000
+  T $CC66 cb=-1 S=$F7 depth=5 wb=$C000
+  C $CC66 cb=-1 S=$F7 depth=5 wb=$C000
+  C $CCDA cb=-1 S=$F7 depth=4 wb=$C000
+  C $CC71 cb=-1 S=$F7 depth=4 wb=$C000
+  T $CC66 cb=-1 S=$F7 depth=5 wb=$C000
+  C $CC66 cb=-1 S=$F7 depth=5 wb=$C000
+  C $CCDA cb=-1 S=$F7 depth=4 wb=$C000
+  C $CC71 cb=-1 S=$F7 depth=4 wb=$C000
+  T $CC66 cb=-1 S=$F7 depth=5 wb=$C000
+  C $CC66 cb=-1 S=$F7 depth=5 wb=$C000
+  n $0002 cb=-1 S=$FD depth=3 wb=$E000
+  T $D9F0 cb=-1 S=$FD depth=3 wb=$E000
+  C $D9F0 cb=-1 S=$FD depth=3 wb=$E000
+  C $D796 cb=-1 S=$FD depth=3 wb=$C000
+  T $D7B8 cb=-1 S=$FD depth=4 wb=$E000
+  C $D7B8 cb=-1 S=$FD depth=4 wb=$E000
+=== end dispatch fault ===
+
+=== dispatch fault 5 frame=221 cycles=6835927 ===
+target gen=$89DD cpu=$89DD bank=6 class=CODE call_site=$0000
+cpu A=$89 X=$03 Y=$01 P=$00 S=$FF window=$8000 dispatch_depth=7 vblank_depth=0 ops=16191 budget=29780
+mapper type=4 current_bank=6 mirroring=3 select=$06 irq_latch=$00 irq_counter=$00 irq_reload=0 irq_enabled=0
+mapper_regs 6A 6A 01 05 00 00 0C 05
+caller func_EDF6
+caller2 func_89BF_b6
+target_bytes 86 33 8A 0A 65 33 A8 A9
+stack_bytes 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+last_dispatches
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $DB92 cb=-1 S=$FF depth=3 wb=$C000
+  C $D341 cb=-1 S=$FF depth=4 wb=$C000
+  T $D377 cb=-1 S=$FF depth=4 wb=$C000
+  C $D377 cb=-1 S=$FF depth=4 wb=$C000
+  C $DC27 cb=-1 S=$FF depth=3 wb=$C000
+  C $DBAF cb=-1 S=$FF depth=3 wb=$C000
+  C $8021 cb=-1 S=$FF depth=4 wb=$C000
+  T $89BF cb=6 S=$FF depth=5 wb=$8000
+  C $89BF cb=6 S=$FF depth=5 wb=$8000
+  T $89DD cb=-1 S=$FF depth=6 wb=$E000
+  C $89DD cb=-1 S=$FF depth=6 wb=$E000
+=== end dispatch fault ===
+
+=== dispatch fault 6 frame=221 cycles=6851976 ===
+target gen=$FF01 cpu=$FF01 bank=7 class=ZERO_FILLED call_site=$6041
+cpu A=$00 X=$03 Y=$04 P=$00 S=$FB window=$E000 dispatch_depth=9 vblank_depth=2 ops=2460 budget=29781
+mapper type=4 current_bank=3 mirroring=3 select=$07 irq_latch=$7F irq_counter=$00 irq_reload=1 irq_enabled=1
+mapper_regs 3C 3E 00 00 00 00 06 07
+caller func_CEAC
+caller2 func_CDE7
+target_bytes 00 00 00 00 00 00 00 00
+stack_bytes 41 60 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+last_dispatches
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $884E cb=6 S=$FF depth=6 wb=$8000
+  C $DB92 cb=-1 S=$FF depth=3 wb=$C000
+  C $D341 cb=-1 S=$FF depth=4 wb=$C000
+  T $D377 cb=-1 S=$FF depth=4 wb=$C000
+  C $D377 cb=-1 S=$FF depth=4 wb=$C000
+  C $DC27 cb=-1 S=$FF depth=3 wb=$C000
+  C $DBAF cb=-1 S=$FF depth=3 wb=$C000
+  C $8021 cb=-1 S=$FF depth=4 wb=$C000
+  T $89BF cb=6 S=$FF depth=5 wb=$8000
+  C $89BF cb=6 S=$FF depth=5 wb=$8000
+  T $89DD cb=-1 S=$FF depth=6 wb=$E000
+  C $89DD cb=-1 S=$FF depth=6 wb=$E000
+  T $89DD cb=-1 S=$FF depth=6 wb=$E000
+  C $89DD cb=-1 S=$FF depth=6 wb=$E000
+  T $89DD cb=-1 S=$FF depth=6 wb=$E000
+  C $89DD cb=-1 S=$FF depth=6 wb=$E000
+  T $89DD cb=-1 S=$FF depth=6 wb=$E000
+  C $89DD cb=-1 S=$FF depth=6 wb=$E000
+  N $0002 cb=-1 S=$FC depth=3 wb=$E000
+  C $DE39 cb=-1 S=$F9 depth=3 wb=$C000
+  T $E11E cb=-1 S=$F9 depth=4 wb=$C000
+  C $E11E cb=-1 S=$F9 depth=4 wb=$C000
+  T $E11E cb=-1 S=$F9 depth=3 wb=$E000
+  C $E11E cb=-1 S=$F9 depth=3 wb=$E000
+  C $DCCE cb=-1 S=$F9 depth=3 wb=$C000
+  C $CB25 cb=-1 S=$F9 depth=3 wb=$C000
+  C $CF72 cb=-1 S=$F9 depth=4 wb=$C000
+  C $CFF3 cb=-1 S=$F9 depth=4 wb=$C000
+  C $CD30 cb=-1 S=$F9 depth=4 wb=$C000
+  C $CD7D cb=-1 S=$F9 depth=5 wb=$C000
+  T $CDE7 cb=-1 S=$F9 depth=6 wb=$C000
+  C $CDE7 cb=-1 S=$F9 depth=6 wb=$C000
+  T $CEAC cb=-1 S=$F9 depth=7 wb=$C000
+  C $CEAC cb=-1 S=$F9 depth=7 wb=$C000
+  D $CDE7 cb=-1 S=$F9 depth=6 wb=$C000
+  C $CDE7 cb=-1 S=$F9 depth=6 wb=$C000
+  T $CEF0 cb=-1 S=$F9 depth=7 wb=$C000
+  C $CEF0 cb=-1 S=$F9 depth=7 wb=$C000
+  C $CD5F cb=-1 S=$F9 depth=8 wb=$C000
+  C $CD7D cb=-1 S=$F9 depth=5 wb=$C000
+  T $CDE7 cb=-1 S=$F9 depth=6 wb=$C000
+  C $CDE7 cb=-1 S=$F9 depth=6 wb=$C000
+  T $CE4C cb=-1 S=$F9 depth=7 wb=$C000
+  C $CE4C cb=-1 S=$F9 depth=7 wb=$C000
+  T $CD93 cb=-1 S=$F9 depth=8 wb=$C000
+  C $CD93 cb=-1 S=$F9 depth=8 wb=$C000
+  D $CDE7 cb=-1 S=$F9 depth=6 wb=$C000
+  C $CDE7 cb=-1 S=$F9 depth=6 wb=$C000
+  T $CEF0 cb=-1 S=$F9 depth=7 wb=$C000
+  C $CEF0 cb=-1 S=$F9 depth=7 wb=$C000
+  D $CDE7 cb=-1 S=$F9 depth=6 wb=$C000
+  C $CDE7 cb=-1 S=$F9 depth=6 wb=$C000
+  T $CEAC cb=-1 S=$F9 depth=7 wb=$C000
+  C $CEAC cb=-1 S=$F9 depth=7 wb=$C000
+  C $CD5F cb=-1 S=$F9 depth=8 wb=$C000
+  T $FF01 cb=-1 S=$FB depth=8 wb=$C000
+  C $FF01 cb=-1 S=$FB depth=8 wb=$C000
+=== end dispatch fault ===
+
+=== dispatch fault 7 frame=221 cycles=13593394 ===
+target gen=$E9AE cpu=$E9AE bank=7 class=CODE call_site=$FF00
+cpu A=$00 X=$FF Y=$00 P=$00 S=$F9 window=$E000 dispatch_depth=4 vblank_depth=1 ops=43265 budget=29780
+mapper type=4 current_bank=6 mirroring=3 select=$07 irq_latch=$1C irq_counter=$00 irq_reload=0 irq_enabled=1
+mapper_regs 3C 3E 00 00 00 00 0C 05
+caller func_E603
+caller2 func_CDE7
+target_bytes A9 00 8D 00 E0 A2 07 CA
+stack_bytes 00 FF 41 60 00 00 00 00 00 00 00 00 00 00 00 00
+last_dispatches
+  C $CD7D cb=-1 S=$04 depth=5 wb=$C000
+  T $CDE7 cb=-1 S=$04 depth=6 wb=$C000
+  C $CDE7 cb=-1 S=$04 depth=6 wb=$C000
+  T $CED7 cb=-1 S=$04 depth=7 wb=$C000
+  C $CED7 cb=-1 S=$04 depth=7 wb=$C000
+  D $CDE7 cb=-1 S=$04 depth=6 wb=$C000
+  C $CDE7 cb=-1 S=$04 depth=6 wb=$C000
+  T $CE4C cb=-1 S=$04 depth=7 wb=$C000
+  C $CE4C cb=-1 S=$04 depth=7 wb=$C000
+  T $CD93 cb=-1 S=$04 depth=8 wb=$C000
+  C $CD93 cb=-1 S=$04 depth=8 wb=$C000
+  D $CDE7 cb=-1 S=$04 depth=6 wb=$C000
+  C $CDE7 cb=-1 S=$04 depth=6 wb=$C000
+  T $CE4C cb=-1 S=$04 depth=7 wb=$C000
+  C $CE4C cb=-1 S=$04 depth=7 wb=$C000
+  T $CD93 cb=-1 S=$04 depth=8 wb=$C000
+  C $CD93 cb=-1 S=$04 depth=8 wb=$C000
+  D $CDE7 cb=-1 S=$04 depth=6 wb=$C000
+  C $CDE7 cb=-1 S=$04 depth=6 wb=$C000
+  T $CE4C cb=-1 S=$04 depth=7 wb=$C000
+  C $CE4C cb=-1 S=$04 depth=7 wb=$C000
+  T $CD93 cb=-1 S=$04 depth=8 wb=$C000
+  C $CD93 cb=-1 S=$04 depth=8 wb=$C000
+  D $CDE7 cb=-1 S=$04 depth=6 wb=$C000
+  C $CDE7 cb=-1 S=$04 depth=6 wb=$C000
+  T $CE78 cb=-1 S=$04 depth=7 wb=$C000
+  C $CE78 cb=-1 S=$04 depth=7 wb=$C000
+  D $CDE7 cb=-1 S=$04 depth=6 wb=$C000
+  C $CDE7 cb=-1 S=$04 depth=6 wb=$C000
+  T $CE78 cb=-1 S=$04 depth=7 wb=$C000
+  C $CE78 cb=-1 S=$04 depth=7 wb=$C000
+  D $CDE7 cb=-1 S=$04 depth=6 wb=$C000
+  C $CDE7 cb=-1 S=$04 depth=6 wb=$C000
+  T $CECE cb=-1 S=$04 depth=7 wb=$C000
+  C $CECE cb=-1 S=$04 depth=7 wb=$C000
+  D $CDE7 cb=-1 S=$04 depth=6 wb=$C000
+  C $CDE7 cb=-1 S=$04 depth=6 wb=$C000
+  T $CE9C cb=-1 S=$04 depth=7 wb=$C000
+  C $CE9C cb=-1 S=$04 depth=7 wb=$C000
+  D $CDE7 cb=-1 S=$04 depth=6 wb=$C000
+  C $CDE7 cb=-1 S=$04 depth=6 wb=$C000
+  T $CEAC cb=-1 S=$04 depth=7 wb=$C000
+  C $CEAC cb=-1 S=$04 depth=7 wb=$C000
+  D $CDE7 cb=-1 S=$04 depth=6 wb=$C000
+  C $CDE7 cb=-1 S=$04 depth=6 wb=$C000
+  T $CEAC cb=-1 S=$04 depth=7 wb=$C000
+  C $CEAC cb=-1 S=$04 depth=7 wb=$C000
+  C $CD5F cb=-1 S=$04 depth=8 wb=$C000
+  T $0001 cb=-1 S=$06 depth=8 wb=$C000
+  C $0001 cb=-1 S=$06 depth=8 wb=$C000
+  I $0001 cb=-1 S=$06 depth=9 wb=$C000
+  C $CD30 cb=-1 S=$06 depth=4 wb=$C000
+  C $CC71 cb=-1 S=$06 depth=4 wb=$C000
+  C $CCDA cb=-1 S=$06 depth=4 wb=$C000
+  C $CC71 cb=-1 S=$06 depth=4 wb=$C000
+  C $CCDA cb=-1 S=$06 depth=4 wb=$C000
+  C $CC71 cb=-1 S=$06 depth=4 wb=$C000
+  C $CCDA cb=-1 S=$06 depth=4 wb=$C000
+  C $CC71 cb=-1 S=$06 depth=4 wb=$C000
+  T $CC61 cb=-1 S=$06 depth=5 wb=$C000
+  C $CC61 cb=-1 S=$06 depth=5 wb=$C000
+  n $0002 cb=-1 S=$0C depth=3 wb=$E000
+  T $E9AE cb=-1 S=$F9 depth=3 wb=$E000
+  C $E9AE cb=-1 S=$F9 depth=3 wb=$E000
+=== end dispatch fault ===
+
+=== dispatch fault 8 frame=223 cycles=20342893 ===
+target gen=$A013 cpu=$A013 bank=3 class=CODE call_site=$0000
+cpu A=$00 X=$02 Y=$04 P=$00 S=$FB window=$A000 dispatch_depth=11 vblank_depth=2 ops=2810 budget=29780
+mapper type=4 current_bank=3 mirroring=3 select=$07 irq_latch=$7F irq_counter=$00 irq_reload=1 irq_enabled=1
+mapper_regs 3C 3E 00 00 00 00 06 07
+caller func_CE78
+caller2 func_CDE7
+target_bytes 9C A0 F5 12 A0 F8 02 F4
+stack_bytes 00 00 03 2D 00 00 00 00 00 00 00 00 00 00 00 00
+last_dispatches
+  C $D9F0 cb=-1 S=$FF depth=3 wb=$E000
+  C $DBAF cb=-1 S=$FF depth=3 wb=$C000
+  C $8021 cb=-1 S=$FF depth=4 wb=$C000
+  T $89BF cb=6 S=$FF depth=5 wb=$8000
+  C $89BF cb=6 S=$FF depth=5 wb=$8000
+  T $89DD cb=-1 S=$FF depth=6 wb=$E000
+  C $89DD cb=-1 S=$FF depth=6 wb=$E000
+  T $89DD cb=-1 S=$FF depth=6 wb=$E000
+  C $89DD cb=-1 S=$FF depth=6 wb=$E000
+  T $89DD cb=-1 S=$FF depth=6 wb=$E000
+  C $89DD cb=-1 S=$FF depth=6 wb=$E000
+  T $89DD cb=-1 S=$FF depth=6 wb=$E000
+  C $89DD cb=-1 S=$FF depth=6 wb=$E000
+  C $DB65 cb=-1 S=$FF depth=3 wb=$C000
+  C $DB92 cb=-1 S=$FF depth=3 wb=$C000
+  C $D341 cb=-1 S=$FF depth=4 wb=$C000
+  N $0002 cb=-1 S=$FA depth=5 wb=$C000
+  C $DE39 cb=-1 S=$F7 depth=5 wb=$C000
+  T $E11E cb=-1 S=$F7 depth=6 wb=$C000
+  C $E11E cb=-1 S=$F7 depth=6 wb=$C000
+  T $E11E cb=-1 S=$F7 depth=5 wb=$E000
+  C $E11E cb=-1 S=$F7 depth=5 wb=$E000
+  C $DCCE cb=-1 S=$F7 depth=5 wb=$C000
+  C $CB25 cb=-1 S=$F7 depth=5 wb=$C000
+  C $CF72 cb=-1 S=$F7 depth=6 wb=$C000
+  C $CFF3 cb=-1 S=$F7 depth=6 wb=$C000
+  C $CD30 cb=-1 S=$F7 depth=6 wb=$C000
+  C $CD7D cb=-1 S=$F7 depth=7 wb=$C000
+  T $CDE7 cb=-1 S=$F7 depth=8 wb=$C000
+  C $CDE7 cb=-1 S=$F7 depth=8 wb=$C000
+  T $CEAC cb=-1 S=$F7 depth=9 wb=$C000
+  C $CEAC cb=-1 S=$F7 depth=9 wb=$C000
+  D $CDE7 cb=-1 S=$F7 depth=8 wb=$C000
+  C $CDE7 cb=-1 S=$F7 depth=8 wb=$C000
+  T $CEF0 cb=-1 S=$F7 depth=9 wb=$C000
+  C $CEF0 cb=-1 S=$F7 depth=9 wb=$C000
+  C $CD5F cb=-1 S=$F7 depth=10 wb=$C000
+  C $CD7D cb=-1 S=$F7 depth=7 wb=$C000
+  T $CDE7 cb=-1 S=$F7 depth=8 wb=$C000
+  C $CDE7 cb=-1 S=$F7 depth=8 wb=$C000
+  T $CE4C cb=-1 S=$F7 depth=9 wb=$C000
+  C $CE4C cb=-1 S=$F7 depth=9 wb=$C000
+  T $CD93 cb=-1 S=$F7 depth=10 wb=$C000
+  C $CD93 cb=-1 S=$F7 depth=10 wb=$C000
+  D $CDE7 cb=-1 S=$F7 depth=8 wb=$C000
+  C $CDE7 cb=-1 S=$F7 depth=8 wb=$C000
+  T $CEF0 cb=-1 S=$F7 depth=9 wb=$C000
+  C $CEF0 cb=-1 S=$F7 depth=9 wb=$C000
+  D $CDE7 cb=-1 S=$F7 depth=8 wb=$C000
+  C $CDE7 cb=-1 S=$F7 depth=8 wb=$C000
+  T $CEAC cb=-1 S=$F7 depth=9 wb=$C000
+  C $CEAC cb=-1 S=$F7 depth=9 wb=$C000
+  C $CD5F cb=-1 S=$F7 depth=10 wb=$C000
+  T $0301 cb=-1 S=$F9 depth=10 wb=$C000
+  C $0301 cb=-1 S=$F9 depth=10 wb=$C000
+  I $0301 cb=-1 S=$F9 depth=11 wb=$C000
+  C $CD7D cb=-1 S=$F9 depth=7 wb=$C000
+  T $CDE7 cb=-1 S=$F9 depth=8 wb=$C000
+  C $CDE7 cb=-1 S=$F9 depth=8 wb=$C000
+  T $CE78 cb=-1 S=$F9 depth=9 wb=$C000
+  C $CE78 cb=-1 S=$F9 depth=9 wb=$C000
+  C $CD5F cb=-1 S=$F9 depth=10 wb=$C000
+  T $A013 cb=-1 S=$FB depth=10 wb=$C000
+  C $A013 cb=-1 S=$FB depth=10 wb=$C000
+=== end dispatch fault ===
+
+=== dispatch fault 9 frame=223 cycles=20344918 ===
+target gen=$2D04 cpu=$2D04 bank=3 class=ZERO_FILLED call_site=$0000
+cpu A=$00 X=$00 Y=$15 P=$00 S=$FF window=$C000 dispatch_depth=11 vblank_depth=2 ops=4835 budget=29780
+mapper type=4 current_bank=3 mirroring=3 select=$07 irq_latch=$7F irq_counter=$00 irq_reload=1 irq_enabled=1
+mapper_regs 3C 3E 00 00 00 00 06 07
+caller func_CEAC
+caller2 func_CDE7
+target_bytes 00 00 00 00 00 00 00 00
+stack_bytes 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+last_dispatches
+  T $CECE cb=-1 S=$FB depth=9 wb=$C000
+  C $CECE cb=-1 S=$FB depth=9 wb=$C000
+  D $CDE7 cb=-1 S=$FB depth=8 wb=$C000
+  C $CDE7 cb=-1 S=$FB depth=8 wb=$C000
+  T $CEAC cb=-1 S=$FB depth=9 wb=$C000
+  C $CEAC cb=-1 S=$FB depth=9 wb=$C000
+  D $CDE7 cb=-1 S=$FB depth=8 wb=$C000
+  C $CDE7 cb=-1 S=$FB depth=8 wb=$C000
+  T $CEAC cb=-1 S=$FB depth=9 wb=$C000
+  C $CEAC cb=-1 S=$FB depth=9 wb=$C000
+  C $CD5F cb=-1 S=$FB depth=10 wb=$C000
+  T $0001 cb=-1 S=$FD depth=10 wb=$C000
+  C $0001 cb=-1 S=$FD depth=10 wb=$C000
+  I $0001 cb=-1 S=$FD depth=11 wb=$C000
+  C $CD7D cb=-1 S=$FD depth=7 wb=$C000
+  T $CDE7 cb=-1 S=$FD depth=8 wb=$C000
+  C $CDE7 cb=-1 S=$FD depth=8 wb=$C000
+  T $CED7 cb=-1 S=$FD depth=9 wb=$C000
+  C $CED7 cb=-1 S=$FD depth=9 wb=$C000
+  D $CDE7 cb=-1 S=$FD depth=8 wb=$C000
+  C $CDE7 cb=-1 S=$FD depth=8 wb=$C000
+  T $CE4C cb=-1 S=$FD depth=9 wb=$C000
+  C $CE4C cb=-1 S=$FD depth=9 wb=$C000
+  T $CD93 cb=-1 S=$FD depth=10 wb=$C000
+  C $CD93 cb=-1 S=$FD depth=10 wb=$C000
+  D $CDE7 cb=-1 S=$FD depth=8 wb=$C000
+  C $CDE7 cb=-1 S=$FD depth=8 wb=$C000
+  T $CE4C cb=-1 S=$FD depth=9 wb=$C000
+  C $CE4C cb=-1 S=$FD depth=9 wb=$C000
+  T $CD93 cb=-1 S=$FD depth=10 wb=$C000
+  C $CD93 cb=-1 S=$FD depth=10 wb=$C000
+  D $CDE7 cb=-1 S=$FD depth=8 wb=$C000
+  C $CDE7 cb=-1 S=$FD depth=8 wb=$C000
+  T $CE4C cb=-1 S=$FD depth=9 wb=$C000
+  C $CE4C cb=-1 S=$FD depth=9 wb=$C000
+  T $CD93 cb=-1 S=$FD depth=10 wb=$C000
+  C $CD93 cb=-1 S=$FD depth=10 wb=$C000
+  D $CDE7 cb=-1 S=$FD depth=8 wb=$C000
+  C $CDE7 cb=-1 S=$FD depth=8 wb=$C000
+  T $CE78 cb=-1 S=$FD depth=9 wb=$C000
+  C $CE78 cb=-1 S=$FD depth=9 wb=$C000
+  D $CDE7 cb=-1 S=$FD depth=8 wb=$C000
+  C $CDE7 cb=-1 S=$FD depth=8 wb=$C000
+  T $CE78 cb=-1 S=$FD depth=9 wb=$C000
+  C $CE78 cb=-1 S=$FD depth=9 wb=$C000
+  D $CDE7 cb=-1 S=$FD depth=8 wb=$C000
+  C $CDE7 cb=-1 S=$FD depth=8 wb=$C000
+  T $CECE cb=-1 S=$FD depth=9 wb=$C000
+  C $CECE cb=-1 S=$FD depth=9 wb=$C000
+  D $CDE7 cb=-1 S=$FD depth=8 wb=$C000
+  C $CDE7 cb=-1 S=$FD depth=8 wb=$C000
+  T $CE9C cb=-1 S=$FD depth=9 wb=$C000
+  C $CE9C cb=-1 S=$FD depth=9 wb=$C000
+  D $CDE7 cb=-1 S=$FD depth=8 wb=$C000
+  C $CDE7 cb=-1 S=$FD depth=8 wb=$C000
+  T $CEAC cb=-1 S=$FD depth=9 wb=$C000
+  C $CEAC cb=-1 S=$FD depth=9 wb=$C000
+  D $CDE7 cb=-1 S=$FD depth=8 wb=$C000
+  C $CDE7 cb=-1 S=$FD depth=8 wb=$C000
+  T $CEAC cb=-1 S=$FD depth=9 wb=$C000
+  C $CEAC cb=-1 S=$FD depth=9 wb=$C000
+  C $CD5F cb=-1 S=$FD depth=10 wb=$C000
+  T $2D04 cb=-1 S=$FF depth=10 wb=$C000
+  C $2D04 cb=-1 S=$FF depth=10 wb=$C000
+=== end dispatch fault ===
+
